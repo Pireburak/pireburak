@@ -1,38 +1,44 @@
-# 🚀 Hi, I'm Burak Özdemir! 👋
+<h1 align="center">Hi there, I'm Burak Özdemir <img src="https://media.giphy.com/media/hvRJjVHEjztds1uLyo/giphy.gif" width="30px"/></h1>
+<h3 align="center">Offensive Security Enthusiast | Software Developer</h3>
 
-### 💫 About Me
-
-- 🔭 I’m currently studying **Information Security Technology** and building tools like a **SecOps Pentest Suite**.
-- 🌱 I’m deeply focused on **Python, Rust, and Swift**, alongside OSINT, network security, and penetration testing.
-- 🎯 Future Goal: Transferring to a **Computer Engineering** degree to further my journey in tech.
-- ⚡ Fun fact: When I'm not hunting vulnerabilities or analyzing networks, you can find me managing my EA Sports FC squad, trucking in ETS2, or cheering for Fenerbahçe! 💛💙
-- 📫 How to reach me: Check out my repositories for my latest cybersecurity tools and vulnerability simulation projects.
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Pireburak&label=Profile%20views&color=00ff00&style=flat" alt="Profile Views" />
+</p>
 
 ---
 
-### 🛠️ Tech Stack & Tools
+### 👨‍💻 About Me
+- 🎓 I am currently studying **Information Security Technology** at Istinye University.
+- 🌍 Planning to graduate in May 2027 and transfer to **Politecnico di Torino** for a degree in Computer Engineering.
+- 🔬 Deeply passionate about **Penetration Testing, OSINT, and Microservice Architectures**.
+- 🛡️ Actively hunting for a cybersecurity internship to apply theoretical knowledge to real-world infrastructure.
+- 🗣️ Currently preparing for the **IELTS** exam (Targeting October 2026) and the **TIL-I** engineering entrance exam.
 
-**Languages & Frameworks:**  
-`Python` | `Rust` | `Swift`  
+### 🚀 Current Projects & Research
+- 🦅 **[ReconClaw (V1.0)](https://github.com/Pireburak/ReconClaw):** An autonomous, high-performance network discovery tool. Built with a dual-engine architecture: **Python (FastAPI)** for the brain and **Rust (Tokio)** for asynchronous execution.
+- 🍏 **Apple WebKit Research:** Simulating and documenting the Use-After-Free vulnerability (CVE-2026-3312) using Rust for advanced security research.
+- 📚 **Continuous Learning:** Attended CYBERCON'26 at ITU Maçka to stay updated with the latest offensive security trends.
 
-**Cybersecurity & Operations:**  
-`OSINT` | `Penetration Testing` | `Nmap` | `Network Security` | `SecOps`
+### 🛠️ Technical Arsenal
+- **Core Languages:** Rust 🦀, Python 🐍
+- **Security:** OSINT, Network Analysis, Vulnerability Scanning
+- **Tools & Frameworks:** Kali Linux, Git, FastAPI, Uvicorn, SQLite, Tokio
+- **Spoken Languages:** Turkish (Native), English (B2), German (A1), Spanish (A1)
+
+### 🥊 Beyond the Screen
+When I'm not staring at terminal screens or debugging asynchronous Rust code, you can find me:
+- 🥋 Training in mixed martial arts (Boxing, Muay Thai, Kickboxing, Karate).
+- 💛💙 Supporting **Fenerbahçe** (Season ticket holder & jersey collector).
+- 🎮 Cruising the roads in Euro Truck Simulator 2 or managing a career mode in EA FC 26.
 
 ---
 
-### 📊 My GitHub Statistics
+### 📊 GitHub Stats
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Pireburak&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0e17&title_color=00ff00" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pireburak&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0e17&title_color=00ff00" height="150" alt="top languages"  />
+</div>
 
-*(Not: Bu kartların çalışması için aşağıdaki linklerdeki `senin-kullanici-adin` yazan yerleri kendi GitHub kullanıcı adınla değiştirmelisin!)*
-
-![Burak's GitHub stats](https://github-readme-stats.vercel.app/api?username=senin-kullanici-adin&show_icons=true&theme=radium)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=senin-kullanici-adin&layout=compact&theme=radium)
-
-### 📈 Activity Graph
-
-[![Burak's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=senin-kullanici-adin&theme=react-dark)](https://github.com/senin-kullanici-adin)
-
----
-
-### 🐍 Contribution Journey
-
-> *"Securing the future, one commit at a time."* 🚀
+<p align="center">
+  <i>"Security is a process, not a product."</i>
+</p>
