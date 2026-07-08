@@ -133,14 +133,14 @@ graph TD;
 *Veri merkezimden çekilen anlık aktivite logları:*
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Pireburak&show_icons=true&theme=radical&border_color=00ff00&bg_color=030303&title_color=00FF00&icon_color=00FF00&text_color=FFFFFF&hide_border=true" width="48%" alt="Pireburak's GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pireburak&theme=radical&border=00ff00&background=030303&ring=00FF00&fire=00FF00&currStreakNum=FFFFFF&hide_border=true" width="48%" alt="Pireburak's Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Pireburak&show_icons=true&theme=radical&border_color=00ff00&bg_color=030303&title_color=00FF00&icon_color=00FF00&text_color=FFFFFF&hide_border=true&cache_seconds=1800" width="48%" alt="Pireburak's GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pireburak&theme=radical&border=00ff00&background=030303&ring=00FF00&fire=00FF00&currStreakNum=FFFFFF&hide_border=true&cache_seconds=1800" width="48%" alt="Pireburak's Streak" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pireburak&layout=compact&theme=radical&border_color=00ff00&bg_color=030303&title_color=00FF00&text_color=FFFFFF&hide_border=true" width="60%" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pireburak&layout=compact&theme=radical&border_color=00ff00&bg_color=030303&title_color=00FF00&text_color=FFFFFF&hide_border=true&cache_seconds=1800" width="60%" alt="Top Languages" />
 </div>
 
 ---
@@ -151,15 +151,15 @@ Benimle yeni bir zafiyet aracı geliştirmek, ağ güvenliği mimarisi tartışm
 
 <div align="center">
   <br>
-  <!-- BURAYA KENDI EMAIL VE DISCORD ADINI YAZMAYI UNUTMA -->
-  <a href="mailto:seninmailadresin@gmail.com">
-    <img src="https://img.shields.io/badge/Send_Encrypted_Payload-(Email)-030303?style=for-the-badge&logo=protonmail&logoColor=00FF00" alt="Email" />
+  <!-- GÜNCELLENMİŞ OUTLOOK VE DISCORD BUTONLARI -->
+  <a href="mailto:burak4234@outlook.com">
+    <img src="https://img.shields.io/badge/Send_Payload-burak4234@outlook.com-030303?style=for-the-badge&logo=microsoftoutlook&logoColor=00FF00" alt="Email" />
+  </a>
+  <a>
+    <img src="https://img.shields.io/badge/Discord-Direfulbike6685-030303?style=for-the-badge&logo=discord&logoColor=00FF00" alt="Discord" />
   </a>
   <a href="https://github.com/Pireburak">
-    <img src="https://img.shields.io/badge/Follow_My_Traces-(GitHub)-030303?style=for-the-badge&logo=github&logoColor=00FF00" alt="GitHub" />
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Discord-Pireburak_0000-030303?style=for-the-badge&logo=discord&logoColor=00FF00" alt="Discord" />
+    <img src="https://img.shields.io/badge/Follow_My_Traces-Pireburak-030303?style=for-the-badge&logo=github&logoColor=00FF00" alt="GitHub" />
   </a>
 </div>
 
