@@ -133,14 +133,15 @@ graph TD;
 *Veri merkezimden çekilen anlık aktivite logları:*
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Pireburak&show_icons=true&theme=radical&border_color=00ff00&bg_color=030303&title_color=00FF00&icon_color=00FF00&text_color=FFFFFF&hide_border=true&cache_seconds=1800" width="48%" alt="Pireburak's GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pireburak&theme=radical&border=00ff00&background=030303&ring=00FF00&fire=00FF00&currStreakNum=FFFFFF&hide_border=true&cache_seconds=1800" width="48%" alt="Pireburak's Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Pireburak&show_icons=true&bg_color=000000&title_color=00FF00&text_color=00FF00&icon_color=00FF00&border_color=00FF00&hide_border=false" width="48%" alt="GitHub Stats" />
+  
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pireburak&background=000000&ring=00FF00&fire=00FF00&currStreakNum=00FF00&currStreakLabel=00FF00&sideNums=00FF00&sideLabels=00FF00&dates=00FF00&border=00FF00" width="48%" alt="GitHub Streak" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pireburak&layout=compact&theme=radical&border_color=00ff00&bg_color=030303&title_color=00FF00&text_color=FFFFFF&hide_border=true&cache_seconds=1800" width="60%" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pireburak&layout=compact&bg_color=000000&title_color=00FF00&text_color=00FF00&border_color=00FF00&hide_border=false" width="60%" alt="Top Languages" />
 </div>
 
 ---
