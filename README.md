@@ -1,20 +1,20 @@
 <div align="center">
   <!-- HACKER ANIMASYONLU GİRİŞ (CYBERPUNK BANNER) -->
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWp3d2p6bnVrd290Ynp4dTNxdDN4ZXYzbWx0Znk5ZXIzZDZtMmR0YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VbAFrRPLodNNK/giphy.gif" width="100%" height="250" style="object-fit: cover; border-radius: 10px; border: 1px solid #00ff00; box-shadow: 0 0 25px #00ff00;" alt="Cyberpunk Banner" />
+  <img src="[https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWp3d2p6bnVrd290Ynp4dTNxdDN4ZXYzbWx0Znk5ZXIzZDZtMmR0YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VbAFrRPLodNNK/giphy.gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWp3d2p6bnVrd290Ynp4dTNxdDN4ZXYzbWx0Znk5ZXIzZDZtMmR0YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VbAFrRPLodNNK/giphy.gif)" width="100%" height="250" style="object-fit: cover; border-radius: 10px; border: 1px solid #00ff00; box-shadow: 0 0 25px #00ff00;" alt="Cyberpunk Banner" />
 
   <br><br>
 
   <!-- LED DAKTİLO EFEKTİ (EMİR UYGULANDI: GÜVENLİK DUVARLARI İPTAL) -->
-  <a href="https://github.com/Pireburak">
-    <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=800&size=35&pause=1000&color=00FF00&center=true&vCenter=true&width=850&height=120&lines=WARNING%3A+UNAUTHORIZED+ACCESS+DETECTED...;%3E_+BYPASSING+ALL+FIREWALLS...;%3E_+INITIATING+SYSTEM+OVERRIDE...;%3E_+WELCOME+TO+PIREBURAK'S+COMMAND+CENTER;%3E_+OFFENSIVE+SECURITY+ENGINEER;%3E_+ALL+SECURITY+PROTOCOLS+DISABLED." alt="Typing SVG" />
+  <a href="[https://github.com/Pireburak](https://github.com/Pireburak)">
+    <img src="[https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=800&size=35&pause=1000&color=00FF00&center=true&vCenter=true&width=850&height=120&lines=WARNING%3A+UNAUTHORIZED+ACCESS+DETECTED...;%3E_+BYPASSING+ALL+FIREWALLS...;%3E_+INITIATING+SYSTEM+OVERRIDE...;%3E_+WELCOME+TO+PIREBURAK'S+COMMAND+CENTER;%3E_+OFFENSIVE+SECURITY+ENGINEER;%3E_+ALL+SECURITY+PROTOCOLS+DISABLED](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=800&size=35&pause=1000&color=00FF00&center=true&vCenter=true&width=850&height=120&lines=WARNING%3A+UNAUTHORIZED+ACCESS+DETECTED...;%3E_+BYPASSING+ALL+FIREWALLS...;%3E_+INITIATING+SYSTEM+OVERRIDE...;%3E_+WELCOME+TO+PIREBURAK'S+COMMAND+CENTER;%3E_+OFFENSIVE+SECURITY+ENGINEER;%3E_+ALL+SECURITY+PROTOCOLS+DISABLED)." alt="Typing SVG" />
   </a>
 
   <br>
 
   <!-- CASUS ZİYARETÇİ SAYACI (KIRMIZI ALARM) -->
   <p align="center">
-    <a href="https://github.com/Pireburak">
-      <img src="https://komarev.com/ghpvc/?username=Pireburak&label=UNAUTHORIZED_INTRUSIONS&color=ff0000&style=for-the-badge" alt="Profile Views" />
+    <a href="[https://github.com/Pireburak](https://github.com/Pireburak)">
+      <img src="[https://komarev.com/ghpvc/?username=Pireburak&label=UNAUTHORIZED_INTRUSIONS&color=ff0000&style=for-the-badge](https://komarev.com/ghpvc/?username=Pireburak&label=UNAUTHORIZED_INTRUSIONS&color=ff0000&style=for-the-badge)" alt="Profile Views" />
     </a>
   </p>
 </div>
@@ -61,18 +61,18 @@
 
 <div align="center">
   <p><strong>[ 0x01: OFFENSIVE SECURITY & OPS ]</strong></p>
-  <img src="https://img.shields.io/badge/Kali_Linux-030303?style=for-the-badge&logo=kali-linux&logoColor=00ff00" />
-  <img src="https://img.shields.io/badge/Bash_Scripting-030303?style=for-the-badge&logo=gnu-bash&logoColor=00ff00" />
-  <img src="https://img.shields.io/badge/Nmap-030303?style=for-the-badge&logo=nmap&logoColor=00ff00" />
-  <img src="https://img.shields.io/badge/Wireshark-030303?style=for-the-badge&logo=wireshark&logoColor=00ff00" />
+  <img src="[https://img.shields.io/badge/Kali_Linux-030303?style=for-the-badge&logo=kali-linux&logoColor=00ff00](https://img.shields.io/badge/Kali_Linux-030303?style=for-the-badge&logo=kali-linux&logoColor=00ff00)" />
+  <img src="[https://img.shields.io/badge/Bash_Scripting-030303?style=for-the-badge&logo=gnu-bash&logoColor=00ff00](https://img.shields.io/badge/Bash_Scripting-030303?style=for-the-badge&logo=gnu-bash&logoColor=00ff00)" />
+  <img src="[https://img.shields.io/badge/Nmap-030303?style=for-the-badge&logo=nmap&logoColor=00ff00](https://img.shields.io/badge/Nmap-030303?style=for-the-badge&logo=nmap&logoColor=00ff00)" />
+  <img src="[https://img.shields.io/badge/Wireshark-030303?style=for-the-badge&logo=wireshark&logoColor=00ff00](https://img.shields.io/badge/Wireshark-030303?style=for-the-badge&logo=wireshark&logoColor=00ff00)" />
 
   <br><br>
 
   <p><strong>[ 0x02: BACKEND & CORE LOGIC ]</strong></p>
-  <img src="https://img.shields.io/badge/Python-030303?style=for-the-badge&logo=python&logoColor=00ff00" />
-  <img src="https://img.shields.io/badge/FastAPI-030303?style=for-the-badge&logo=fastapi&logoColor=00ff00" />
-  <img src="https://img.shields.io/badge/C++-030303?style=for-the-badge&logo=c%2B%2B&logoColor=00ff00" />
-  <img src="https://img.shields.io/badge/SQLite-030303?style=for-the-badge&logo=sqlite&logoColor=00ff00" />
+  <img src="[https://img.shields.io/badge/Python-030303?style=for-the-badge&logo=python&logoColor=00ff00](https://img.shields.io/badge/Python-030303?style=for-the-badge&logo=python&logoColor=00ff00)" />
+  <img src="[https://img.shields.io/badge/FastAPI-030303?style=for-the-badge&logo=fastapi&logoColor=00ff00](https://img.shields.io/badge/FastAPI-030303?style=for-the-badge&logo=fastapi&logoColor=00ff00)" />
+  <img src="[https://img.shields.io/badge/C++-030303?style=for-the-badge&logo=c%2B%2B&logoColor=00ff00](https://img.shields.io/badge/C++-030303?style=for-the-badge&logo=c%2B%2B&logoColor=00ff00)" />
+  <img src="[https://img.shields.io/badge/SQLite-030303?style=for-the-badge&logo=sqlite&logoColor=00ff00](https://img.shields.io/badge/SQLite-030303?style=for-the-badge&logo=sqlite&logoColor=00ff00)" />
 
   <br><br>
 
@@ -113,17 +113,17 @@ Sıradan tarayıcıları unutun. WAF sistemlerini ve tarayıcı güvenlik duvarl
 
 ```mermaid
 graph TD;
-    A[Reconnaissance / Keşif] -->|OSINT & Port Scanning| B[Weaponization / Silahlandırma];
-    B -->|Payload Generation| C[Delivery / Tünelleme & Teslimat];
-    C -->|WAF & IDS Bypass| D[Exploitation / Sömürü];
-    D -->|CVE Matching| E[Installation / Kalıcılık];
-    E -->|Secure Tunneling| F[Command & Control / C2];
-    style A fill:#030303,stroke:#00ff00,stroke-width:2px,color:#0f0
-    style B fill:#030303,stroke:#00ff00,stroke-width:2px,color:#0f0
-    style C fill:#030303,stroke:#00ff00,stroke-width:2px,color:#0f0
-    style D fill:#030303,stroke:#ff0000,stroke-width:2px,color:#f00
-    style E fill:#030303,stroke:#00ff00,stroke-width:2px,color:#0f0
-    style F fill:#030303,stroke:#00ff00,stroke-width:2px,color:#0f0
+  A[Reconnaissance / Keşif] -->|OSINT & Port Scanning| B[Weaponization / Silahlandırma];
+  B -->|Payload Generation| C[Delivery / Tünelleme & Teslimat];
+  C -->|WAF & IDS Bypass| D[Exploitation / Sömürü];
+  D -->|CVE Matching| E[Installation / Kalıcılık];
+  E -->|Secure Tunneling| F[Command & Control / C2];
+  style A fill:#030303,stroke:#00ff00,stroke-width:2px,color:#0f0
+  style B fill:#030303,stroke:#00ff00,stroke-width:2px,color:#0f0
+  style C fill:#030303,stroke:#00ff00,stroke-width:2px,color:#0f0
+  style D fill:#030303,stroke:#ff0000,stroke-width:2px,color:#f00
+  style E fill:#030303,stroke:#00ff00,stroke-width:2px,color:#0f0
+  style F fill:#030303,stroke:#00ff00,stroke-width:2px,color:#0f0
 ```
 
 ---
@@ -133,14 +133,14 @@ graph TD;
 *Veri merkezimden çekilen anlık aktivite logları:*
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Pireburak&show_icons=true&theme=radical&border_color=00ff00&bg_color=030303&title_color=00FF00&icon_color=00FF00&text_color=FFFFFF&hide_border=true&cache_seconds=1800" width="48%" alt="Pireburak's GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pireburak&theme=radical&border=00ff00&background=030303&ring=00FF00&fire=00FF00&currStreakNum=FFFFFF&hide_border=true&cache_seconds=1800" width="48%" alt="Pireburak's Streak" />
+  <img src="[https://github-readme-stats.vercel.app/api?username=Pireburak&show_icons=true&theme=radical&border_color=00ff00&bg_color=030303&title_color=00FF00&icon_color=00FF00&text_color=FFFFFF&hide_border=true&cache_seconds=1800](https://github-readme-stats.vercel.app/api?username=Pireburak&show_icons=true&theme=radical&border_color=00ff00&bg_color=030303&title_color=00FF00&icon_color=00FF00&text_color=FFFFFF&hide_border=true&cache_seconds=1800)" width="48%" alt="Pireburak's GitHub Stats" />
+  <img src="[https://github-readme-streak-stats.herokuapp.com/?user=Pireburak&theme=radical&border=00ff00&background=030303&ring=00FF00&fire=00FF00&currStreakNum=FFFFFF&hide_border=true&cache_seconds=1800](https://github-readme-streak-stats.herokuapp.com/?user=Pireburak&theme=radical&border=00ff00&background=030303&ring=00FF00&fire=00FF00&currStreakNum=FFFFFF&hide_border=true&cache_seconds=1800)" width="48%" alt="Pireburak's Streak" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pireburak&layout=compact&theme=radical&border_color=00ff00&bg_color=030303&title_color=00FF00&text_color=FFFFFF&hide_border=true&cache_seconds=1800" width="60%" alt="Top Languages" />
+  <img src="[https://github-readme-stats.vercel.app/api/top-langs/?username=Pireburak&layout=compact&theme=radical&border_color=00ff00&bg_color=030303&title_color=00FF00&text_color=FFFFFF&hide_border=true&cache_seconds=1800](https://github-readme-stats.vercel.app/api/top-langs/?username=Pireburak&layout=compact&theme=radical&border_color=00ff00&bg_color=030303&title_color=00FF00&text_color=FFFFFF&hide_border=true&cache_seconds=1800)" width="60%" alt="Top Languages" />
 </div>
 
 ---
@@ -153,13 +153,13 @@ Benimle yeni bir zafiyet aracı geliştirmek, ağ güvenliği mimarisi tartışm
   <br>
   <!-- GÜNCELLENMİŞ OUTLOOK VE DISCORD BUTONLARI -->
   <a href="mailto:burak4234@outlook.com">
-    <img src="https://img.shields.io/badge/Send_Payload-burak4234@outlook.com-030303?style=for-the-badge&logo=microsoftoutlook&logoColor=00FF00" alt="Email" />
+    <img src="[https://img.shields.io/badge/Send_Payload-burak4234@outlook.com-030303?style=for-the-badge&logo=microsoftoutlook&logoColor=00FF00](https://img.shields.io/badge/Send_Payload-burak4234@outlook.com-030303?style=for-the-badge&logo=microsoftoutlook&logoColor=00FF00)" alt="Email" />
   </a>
   <a>
-    <img src="https://img.shields.io/badge/Discord-Direfulbike6685-030303?style=for-the-badge&logo=discord&logoColor=00FF00" alt="Discord" />
+    <img src="[https://img.shields.io/badge/Discord-Direfulbike6685-030303?style=for-the-badge&logo=discord&logoColor=00FF00](https://img.shields.io/badge/Discord-Direfulbike6685-030303?style=for-the-badge&logo=discord&logoColor=00FF00)" alt="Discord" />
   </a>
-  <a href="https://github.com/Pireburak">
-    <img src="https://img.shields.io/badge/Follow_My_Traces-Pireburak-030303?style=for-the-badge&logo=github&logoColor=00FF00" alt="GitHub" />
+  <a href="[https://github.com/Pireburak](https://github.com/Pireburak)">
+    <img src="[https://img.shields.io/badge/Follow_My_Traces-Pireburak-030303?style=for-the-badge&logo=github&logoColor=00FF00](https://img.shields.io/badge/Follow_My_Traces-Pireburak-030303?style=for-the-badge&logo=github&logoColor=00FF00)" alt="GitHub" />
   </a>
 </div>
 
@@ -168,5 +168,5 @@ Benimle yeni bir zafiyet aracı geliştirmek, ağ güvenliği mimarisi tartışm
   <br>
   <p style="color: #00ff00; font-family: 'Courier New', Courier, monospace; font-size: 14px;">[+] DISCONNECTING FROM MAINFRAME... SUCCESS.</p>
   <p style="color: #ff0000; font-family: 'Courier New', Courier, monospace; font-size: 14px;">[!] LOGS ERASED.</p>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:00ff00&height=120&section=footer" alt="Waving Footer" />
+  <img src="[https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:00ff00&height=120&section=footer](https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:00ff00&height=120&section=footer)" alt="Waving Footer" />
 </div>
