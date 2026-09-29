@@ -1,22 +1,18 @@
-<!-- ═══════════════════════════════ HEADER ═══════════════════════════════ -->
+<!-- ═══════════════════════════════ BAŞLIK ═══════════════════════════════ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,50:003300,100:00ff00&height=260&section=header&text=PIREBURAK&fontSize=85&fontColor=00ff00&animation=twinkling&fontAlignY=38&desc=Security%20Engineer%20%E2%80%A2%20Python%20Backend%20%E2%80%A2%20Recon%20Tooling&descAlignY=60&descSize=18" width="100%" alt="header" />
+<img src="assets/baslik.svg" width="100%" alt="PİREBURAK — Siber Güvenlik Mühendisi · Python Backend · Keşif Araçları" />
 
 <a href="https://github.com/Pireburak">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=26&pause=900&color=00FF00&center=true&vCenter=true&random=false&width=900&height=70&lines=%3E+initializing+session...;%3E+user%3A+Burak+%7C+Pireburak;%3E+role%3A+Security+Engineer+%2B+Python+Backend;%3E+building%3A+ReconClaw+v4.0;%3E+fuel%3A+demli+%C3%A7ay+%7C+made+in+T%C3%BCrkiye;%3E+If+you+can't+break+it%2C+you+can't+secure+it." alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=D4AF37&center=true&vCenter=true&random=false&width=900&height=60&lines=%3E%20initializing%20session...;%3E%20user%3A%20Burak%20%7C%20Pireburak;%3E%20role%3A%20Security%20Engineer%20%2B%20Python%20Backend;%3E%20building%3A%20ReconClaw%20v4.0;%3E%20fuel%3A%20demli%20%C3%A7ay%20%7C%20made%20in%20T%C3%BCrkiye;%3E%20%C4%B0stikbal%20g%C3%B6klerdedir." alt="Yazı animasyonu" />
 </a>
 
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=Pireburak&label=PROFILE%20VIEWS&color=00ff00&style=for-the-badge" alt="Profile views" />
-<img src="https://img.shields.io/github/followers/Pireburak?label=FOLLOWERS&style=for-the-badge&color=030303&labelColor=030303&logo=github&logoColor=00ff00" alt="Followers" />
-<img src="https://img.shields.io/github/stars/Pireburak?label=STARS&style=for-the-badge&color=030303&labelColor=030303&logo=starship&logoColor=00ff00" alt="Stars" />
-<img src="https://img.shields.io/badge/STATUS-BUILDING%20IN%20PUBLIC-00ff00?style=for-the-badge&labelColor=030303" alt="Status" />
+<img src="https://komarev.com/ghpvc/?username=Pireburak&label=ZİYARETÇİ&color=A4161A&style=for-the-badge" alt="Profil ziyaretleri" />
+<img src="https://img.shields.io/github/followers/Pireburak?label=TAKİPÇİ&style=for-the-badge&color=0B1426&labelColor=A4161A&logo=github&logoColor=F4E9D8" alt="Takipçi" />
+<img src="https://img.shields.io/github/stars/Pireburak?label=YILDIZ&style=for-the-badge&color=0B1426&labelColor=A4161A&logo=starship&logoColor=F4E9D8" alt="Yıldız" />
+<img src="https://img.shields.io/badge/DURUM-İNŞA%20HALİNDE-D4AF37?style=for-the-badge&labelColor=0B1426" alt="Durum" />
 
 </div>
-
-<img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" width="100%" alt="divider" />
 
 <!-- ═══════════════════════════════ WHOAMI ═══════════════════════════════ -->
 
@@ -31,8 +27,8 @@ burak — security-minded software engineer
 └─$ cat about.txt
 [+] Sistemleri nasıl kırıldıklarını anlayarak tasarlıyorum.
 [+] Keşif → servis parmak izi → zafiyet analizi → sağlam backend mimarisi.
-[+] Yakıt: demli çay. Menşei: Türkiye 🇹🇷
 [+] I build tools at the intersection of network recon & secure system design.
+[+] Yakıt: demli çay. Menşei: Anadolu. Pusula: bilim.
 
 ┌──(pireburak㉿kali)-[~]
 └─$ cat /etc/motto
@@ -59,47 +55,22 @@ location:  Türkiye 🇹🇷
 focus:     [Recon, OSINT, CVE, APIs]
 languages: [Python, C++, Bash, JS]
 os:        Kali Linux
-coffee:    ████████████ 100%
+çay:       ████████████ 100%
 ```
 
 </td>
 </tr>
 </table>
 
-<!-- ═══════════════════════════════ TÜRKİYE ═══════════════════════════════ -->
+<img src="assets/kilim.svg" width="100%" alt="kilim şeridi" />
 
-## `> cd ~/turkiye && cat /etc/turkiye`
+<!-- ═══════════════════════════════ ATATÜRK ═══════════════════════════════ -->
+
+## `> cat /etc/pusula`
 
 <div align="center">
-  <img src="assets/turkiye.svg" width="100%" alt="pireburak@kali: cat /etc/turkiye — ay yıldız ve Türkiye bilgileri" />
-  <br/>
-  <sub>Ay yıldız, <b>Türk Bayrağı Kanunu</b>'ndaki resmi oranlarla elle çizildi. 🇹🇷</sub>
+  <img src="assets/ataturk.svg" width="100%" alt="Atamıza saygıyla — “Hayatta en hakiki mürşit ilimdir.” Mustafa Kemal Atatürk" />
 </div>
-
-<details>
-<summary><b>☕ <code>systemctl status cay.service</code> (tıkla)</b></summary>
-<br/>
-
-```bash
-┌──(pireburak㉿kali)-[~]
-└─$ systemctl status cay.service
-● cay.service - Türk Çayı Demleme Servisi (Rize, çift katlı çaydanlık)
-     Loaded: loaded (/etc/systemd/system/cay.service; enabled; preset: tavşan kanı)
-     Active: active (demleniyor) since 07:00 +03; her gün, tatil yok
-    Process: ince belli bardak · şeker opsiyonel · bardak altlığı zorunlu
-     Memory: ☕ × ∞
-     CGroup: /mutfak.slice/cay.service
-             ├─ demlik     (üst kat)  — 15 dk demlenir, acele edilmez
-             └─ çaydanlık  (alt kat)  — su hep kaynar
-
-07:00:01 kali systemd[1]: Started Türk Çayı Demleme Servisi.
-07:15:00 kali cay[1923]: [+] Demlendi. Renk kontrolü: tavşan kanı ✓
-10:30:12 kali cay[1923]: [!] Bardak boş — auto-refill tetiklendi.
-16:00:00 kali cay[1923]: [+] İkindi çayı + simit modu aktif. 🥯
-02:14:59 kali cay[1923]: [~] Gece mesaisi: exploit analizi + son demlik.
-```
-
-</details>
 
 <!-- ═══════════════════════════════ ARSENAL ═══════════════════════════════ -->
 
@@ -107,21 +78,21 @@ coffee:    ████████████ 100%
 
 <div align="center">
 
-**⚙️ Core & Backend**
+**⚙️ Çekirdek & Backend**
 
-<img src="https://skillicons.dev/icons?i=python,fastapi,cpp,sqlite,bash&theme=dark" alt="Core stack" />
+<img src="https://skillicons.dev/icons?i=python,fastapi,cpp,sqlite,bash&theme=dark" alt="Çekirdek" />
 
-**🛡️ Security Toolkit**
+**🛡️ Güvenlik Cephaneliği**
 
-<img src="https://img.shields.io/badge/Kali_Linux-030303?style=for-the-badge&logo=kali-linux&logoColor=00ff00" alt="Kali" />
-<img src="https://img.shields.io/badge/Nmap-030303?style=for-the-badge&logo=nmap&logoColor=00ff00" alt="Nmap" />
-<img src="https://img.shields.io/badge/Wireshark-030303?style=for-the-badge&logo=wireshark&logoColor=00ff00" alt="Wireshark" />
-<img src="https://img.shields.io/badge/Burp_Suite-030303?style=for-the-badge&logo=burpsuite&logoColor=00ff00" alt="Burp Suite" />
-<img src="https://img.shields.io/badge/Metasploit-030303?style=for-the-badge&logo=metasploit&logoColor=00ff00" alt="Metasploit" />
+<img src="https://img.shields.io/badge/Kali_Linux-0B1426?style=for-the-badge&logo=kali-linux&logoColor=D4AF37" alt="Kali" />
+<img src="https://img.shields.io/badge/Nmap-0B1426?style=for-the-badge&logo=nmap&logoColor=D4AF37" alt="Nmap" />
+<img src="https://img.shields.io/badge/Wireshark-0B1426?style=for-the-badge&logo=wireshark&logoColor=D4AF37" alt="Wireshark" />
+<img src="https://img.shields.io/badge/Burp_Suite-0B1426?style=for-the-badge&logo=burpsuite&logoColor=D4AF37" alt="Burp Suite" />
+<img src="https://img.shields.io/badge/Metasploit-0B1426?style=for-the-badge&logo=metasploit&logoColor=D4AF37" alt="Metasploit" />
 
-**🌐 Infra & Frontend**
+**🌐 Altyapı & Önyüz**
 
-<img src="https://skillicons.dev/icons?i=linux,docker,cloudflare,git,githubactions,js,html,css&theme=dark" alt="Infra stack" />
+<img src="https://skillicons.dev/icons?i=linux,docker,cloudflare,git,githubactions,js,html,css&theme=dark" alt="Altyapı" />
 
 </div>
 
@@ -131,7 +102,7 @@ coffee:    ████████████ 100%
 
 <div align="center">
   <a href="https://github.com/Pireburak/ReconClaw">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Pireburak&repo=ReconClaw&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FF00&icon_color=00FF00&text_color=FFFFFF" alt="ReconClaw" />
+    <img src="https://raw.githubusercontent.com/Pireburak/pireburak/output/reconclaw.svg" width="100%" alt="ReconClaw — öne çıkan depo" />
   </a>
 </div>
 
@@ -166,6 +137,17 @@ flowchart LR
 
 </details>
 
+<!-- ═══════════════════════════════ İSTİKBAL GÖKLERDEDİR ═══════════════════════════════ -->
+
+## `> ./istikbal --goklerdedir`
+
+<div align="center">
+  <img src="assets/gokler.svg" width="100%" alt="İstikbal göklerdedir — Mustafa Kemal Atatürk. Gökyüzünde süzülen milli İHA'lar ve HUD ekranı." />
+</div>
+
+TEKNOFEST'te sabahlayan takımlar, BAYKAR'ın **Bayraktar TB2**, **AKINCI** ve **KIZILELMA**'sı, "yapamazsınız" denen her şeyin Anadolu'da yapılabildiğinin kanıtı.
+Benim cephem siber: gökteki her İHA'nın arkasında **şifreli bir veri bağı**, **sağlamlaştırılmış bir yer istasyonu** ve güvenli yazılmış bir kod satırı var. 🛡️✈️
+
 <!-- ═══════════════════════════════ METHODOLOGY ═══════════════════════════════ -->
 
 ## `> cat methodology.md`
@@ -174,12 +156,12 @@ Yetkili bir değerlendirmede izlediğim hat:
 
 ```mermaid
 flowchart TD
-  A[🔍 Recon / OSINT] --> B[🗺️ Port & Service Map]
-  B --> C[📡 Banner & Version Intel]
-  C --> D[🧠 CVE & Risk Scoring]
-  D --> E[🛡️ Hardening Notes]
-  E --> F[✅ Verify & Report]
-  F -. feedback loop .-> A
+  A[🔍 Keşif / OSINT] --> B[🗺️ Port & Servis Haritası]
+  B --> C[📡 Banner & Sürüm İstihbaratı]
+  C --> D[🧠 CVE & Risk Skoru]
+  D --> E[🛡️ Sıkılaştırma Notları]
+  E --> F[✅ Doğrula & Raporla]
+  F -. geri besleme .-> A
 ```
 
 <details>
@@ -231,6 +213,8 @@ Güvenlik Türkçe de konuşulur. Terimlerin Türkçesini kullanmaya özen göst
 ```diff
 + (staged)  pireburak: sıradaki commit Anadolu'dan geliyor 🚀
 * 2025  Siber Güvenlik Başkanlığı kuruldu · 7545 sayılı Siber Güvenlik Kanunu kabul edildi
+* 2022  Bayraktar KIZILELMA ilk uçuşunu yaptı — insansız savaş uçağı çağı başladı
+* 2019  Bayraktar AKINCI ilk uçuşunu yaptı
 * 2018  İlk TEKNOFEST düzenlendi — milli teknoloji hamlesi sahaya indi
 * 2016  6698 sayılı KVKK yürürlüğe girdi — kişisel veri artık kanunla korunuyor
 * 2013  USOM (Ulusal Siber Olaylara Müdahale Merkezi) kuruldu
@@ -238,17 +222,30 @@ Güvenlik Türkçe de konuşulur. Terimlerin Türkçesini kullanmaya özen göst
 * 1960  Türkiye'nin ilk bilgisayarı IBM 650, Karayolları Genel Müdürlüğü'nde çalıştı
 ```
 
-<!-- ═══════════════════════════════ ROADMAP ═══════════════════════════════ -->
+<details>
+<summary><b>☕ <code>systemctl status cay.service</code> (tıkla)</b></summary>
+<br/>
 
-## `> cat roadmap.todo`
+```bash
+┌──(pireburak㉿kali)-[~]
+└─$ systemctl status cay.service
+● cay.service - Türk Çayı Demleme Servisi (Rize, çift katlı çaydanlık)
+     Loaded: loaded (/etc/systemd/system/cay.service; enabled; preset: tavşan kanı)
+     Active: active (demleniyor) since 07:00 +03; her gün, tatil yok
+    Process: ince belli bardak · şeker opsiyonel · bardak altlığı zorunlu
+     Memory: ☕ × ∞
+     CGroup: /mutfak.slice/cay.service
+             ├─ demlik     (üst kat)  — 15 dk demlenir, acele edilmez
+             └─ çaydanlık  (alt kat)  — su hep kaynar
 
-- [x] ReconClaw async engine
-- [x] Banner grabbing + version detection
-- [x] OSINT footprint modülü
-- [ ] ReconClaw v4.0 — AI risk engine iyileştirmeleri
-- [ ] Docker imajı + tek komutla kurulum
-- [ ] Rapor dışa aktarma (PDF / JSON)
-- [ ] Plugin sistemi (özel tarama modülleri)
+07:00:01 kali systemd[1]: Started Türk Çayı Demleme Servisi.
+07:15:00 kali cay[1923]: [+] Demlendi. Renk kontrolü: tavşan kanı ✓
+10:30:12 kali cay[1923]: [!] Bardak boş — auto-refill tetiklendi.
+16:00:00 kali cay[1923]: [+] İkindi çayı + simit modu aktif. 🥯
+02:14:59 kali cay[1923]: [~] Gece mesaisi: exploit analizi + son demlik.
+```
+
+</details>
 
 <!-- ═══════════════════════════════ ATASÖZÜ ═══════════════════════════════ -->
 
@@ -266,13 +263,19 @@ Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yor
 <sub>🕰️ Son güncelleme: 29.09.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
 <!-- ATASOZU:END -->
 
-<!-- ═══════════════════════════════ QUOTE ═══════════════════════════════ -->
+<!-- ═══════════════════════════════ ROADMAP ═══════════════════════════════ -->
 
-## `> fortune | cowsay`
+## `> cat roadmap.todo`
 
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=chartreuse-dark" alt="Dev quote" />
-</div>
+- [x] ReconClaw async engine
+- [x] Banner grabbing + version detection
+- [x] OSINT footprint modülü
+- [ ] ReconClaw v4.0 — AI risk engine iyileştirmeleri
+- [ ] Docker imajı + tek komutla kurulum
+- [ ] Rapor dışa aktarma (PDF / JSON)
+- [ ] Plugin sistemi (özel tarama modülleri)
+
+<img src="assets/kilim.svg" width="100%" alt="kilim şeridi" />
 
 <!-- ═══════════════════════════════ STATS ═══════════════════════════════ -->
 
@@ -280,25 +283,15 @@ Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yor
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Pireburak&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FF00&icon_color=00FF00&text_color=FFFFFF&rank_icon=github" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pireburak&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=FFFFFF" alt="Top languages" />
+<img src="https://raw.githubusercontent.com/Pireburak/pireburak/output/istatistik.svg" width="49%" alt="İstatistik defteri" />
+<img src="https://raw.githubusercontent.com/Pireburak/pireburak/output/diller.svg" width="49%" alt="Dil dokuması" />
 
-<img src="https://streak-stats.demolab.com?user=Pireburak&theme=chartreuse-dark&hide_border=true&background=0D1117&ring=00FF00&fire=00FF00&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=AAAAAA" alt="GitHub streak" />
+<img src="https://raw.githubusercontent.com/Pireburak/pireburak/output/katki-kilimi.svg" width="100%" alt="Katkı kilimi — son bir yılın katkıları kilim deseninde" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=Pireburak&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" width="100%" alt="Trophies" />
+<img src="https://raw.githubusercontent.com/Pireburak/pireburak/output/github-snake-dark.svg" width="100%" alt="Katkı yılanı" />
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Pireburak&bg_color=0D1117&color=00FF00&line=00FF00&point=FFFFFF&area=true&area_color=00FF00&hide_border=true&custom_title=Pireburak%20%E2%80%94%20Contribution%20Activity" alt="Activity graph" />
+<sub>Tüm kartlar dış servis kullanmadan, bu repodaki <code>scripts/profil.py</code> ile her gece yeniden dokunur.</sub>
 
-</div>
-
-<!-- ═══════════════════════════════ SNAKE ═══════════════════════════════ -->
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pireburak/pireburak/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Pireburak/pireburak/output/github-snake.svg" />
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/Pireburak/pireburak/output/github-snake-dark.svg" />
-  </picture>
 </div>
 
 <!-- ═══════════════════════════════ CONNECT ═══════════════════════════════ -->
@@ -308,19 +301,21 @@ Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yor
 ```
 PING pireburak (127.0.0.1): 56 data bytes
 64 bytes from pireburak: icmp_seq=0 ttl=64 — güvenlik aracı? backend mimarisi? iş birliği?
-64 bytes from pireburak: icmp_seq=1 ttl=64 — kanallar açık, yaz 👇
+64 bytes from pireburak: icmp_seq=1 ttl=64 — kanallar açık, bir çay söyle, yaz 👇
 ```
 
 <div align="center">
 
-<a href="mailto:burak4234@outlook.com"><img src="https://img.shields.io/badge/Email-burak4234%40outlook.com-030303?style=for-the-badge&logo=microsoftoutlook&logoColor=00FF00" alt="Email" /></a>
-<img src="https://img.shields.io/badge/Discord-Direfulbike6685-030303?style=for-the-badge&logo=discord&logoColor=00FF00" alt="Discord" />
-<a href="https://github.com/Pireburak"><img src="https://img.shields.io/badge/GitHub-Pireburak-030303?style=for-the-badge&logo=github&logoColor=00FF00" alt="GitHub" /></a>
+<a href="mailto:burak4234@outlook.com"><img src="https://img.shields.io/badge/E--posta-burak4234%40outlook.com-0B1426?style=for-the-badge&logo=microsoftoutlook&logoColor=D4AF37" alt="E-posta" /></a>
+<img src="https://img.shields.io/badge/Discord-Direfulbike6685-0B1426?style=for-the-badge&logo=discord&logoColor=D4AF37" alt="Discord" />
+<a href="https://github.com/Pireburak"><img src="https://img.shields.io/badge/GitHub-Pireburak-0B1426?style=for-the-badge&logo=github&logoColor=D4AF37" alt="GitHub" /></a>
 
 <br/><br/>
 
 <sub>⚠️ Buradaki tüm araçlar yalnızca <b>yetkili</b> testler ve eğitim amaçlıdır. / For authorized testing & education only.</sub>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:003300,100:00ff00&height=120&section=footer&text=stay%20curious%20%E2%80%A2%20stay%20ethical&fontSize=20&fontColor=00ff00&fontAlignY=75&animation=twinkling" width="100%" alt="footer" />
+<br/><br/>
+
+<img src="assets/altbilgi.svg" width="100%" alt="Ne mutlu Türküm diyene! — Mustafa Kemal Atatürk" />
 
 </div>
