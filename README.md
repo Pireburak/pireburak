@@ -8,8 +8,8 @@
 </a>
 
 <img src="https://komarev.com/ghpvc/?username=Pireburak&label=ZİYARETÇİ&color=A4161A&style=for-the-badge" alt="Profil ziyaretleri" />
-<img src="https://img.shields.io/github/followers/Pireburak?label=TAKİPÇİ&style=for-the-badge&color=0B1426&labelColor=A4161A&logo=github&logoColor=F4E9D8" alt="Takipçi" />
-<img src="https://img.shields.io/github/stars/Pireburak?label=YILDIZ&style=for-the-badge&color=0B1426&labelColor=A4161A&logo=starship&logoColor=F4E9D8" alt="Yıldız" />
+<a href="https://github.com/Pireburak?tab=followers"><img src="https://raw.githubusercontent.com/Pireburak/pireburak/output/rozet-takipci.svg" alt="Takipçi" /></a>
+<a href="https://github.com/Pireburak?tab=repositories"><img src="https://raw.githubusercontent.com/Pireburak/pireburak/output/rozet-yildiz.svg" alt="Yıldız" /></a>
 <img src="https://img.shields.io/badge/DURUM-İNŞA%20HALİNDE-D4AF37?style=for-the-badge&labelColor=0B1426" alt="Durum" />
 
 </div>
@@ -152,17 +152,9 @@ Benim cephem siber: gökteki her İHA'nın arkasında **şifreli bir veri bağı
 
 ## `> cat methodology.md`
 
-Yetkili bir değerlendirmede izlediğim hat:
-
-```mermaid
-flowchart TD
-  A[🔍 Keşif / OSINT] --> B[🗺️ Port & Servis Haritası]
-  B --> C[📡 Banner & Sürüm İstihbaratı]
-  C --> D[🧠 CVE & Risk Skoru]
-  D --> E[🛡️ Sıkılaştırma Notları]
-  E --> F[✅ Doğrula & Raporla]
-  F -. geri besleme .-> A
-```
+<div align="center">
+  <img src="assets/metodoloji.svg" width="100%" alt="Yetkili değerlendirme hattı: 1 Keşif (OSINT) → 2 Harita (port ve servis) → 3 İstihbarat (banner ve sürüm) → 4 Analiz (CVE ve risk) → 5 Sıkılaştır (düzeltme) → 6 Doğrula (rapor), geri besleme döngüsüyle" />
+</div>
 
 <details>
 <summary><b>📜 Prensiplerim</b></summary>

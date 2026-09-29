@@ -4,7 +4,8 @@ Kullanım:
   GITHUB_TOKEN=... python scripts/profil.py --kullanici Pireburak --cikti dist
   python scripts/profil.py --veri ornek.json --cikti /tmp/onizleme   # çevrimdışı önizleme
 
-Üretilen dosyalar: istatistik.svg, diller.svg, katki-kilimi.svg, reconclaw.svg
+Üretilen dosyalar: istatistik.svg, diller.svg, katki-kilimi.svg, reconclaw.svg,
+rozet-takipci.svg, rozet-yildiz.svg
 """
 
 import argparse
@@ -17,7 +18,7 @@ from collections import Counter
 from datetime import date, timedelta
 from pathlib import Path
 
-from ortak import (AL, ALTIN, ALTIN_ACIK, CINI, GECE, GECE2, KILIM_SATIR, KREM, LACIVERT,
+from ortak import (AL, ALTIN, ALTIN_ACIK, CINI, GECE, GECE2, KILIM_SATIR, KOKBOYA, KREM, LACIVERT,
                    SOLUK, altin_gradyan, esc, font_css, hatayi, kilim_serit, lale,
                    parilti_gradyan, selcuklu_deseni, tezhip_cerceve, yildiz_noktalari)
 
@@ -322,6 +323,34 @@ def depo_karti(u):
     return svg(W, H, f"{d['name']} — öne çıkan depo", "".join(govde))
 
 
+# ─────────────────────────────── 5) ROZETLER ───────────────────────────────
+
+def rozet(etiket: str, deger: str) -> str:
+    """shields.io 'for-the-badge' ölçülerinde rozet (28px yükseklik)."""
+    harf = 11 * .6 + 1.5  # JetBrains Mono 11px + harf aralığı
+    sol = round(len(etiket) * harf + 22)
+    sag = round(len(deger) * harf + 22)
+    w = sol + sag
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="28" viewBox="0 0 {w} 28" role="img" aria-label="{esc(etiket)}: {esc(deger)}">
+<title>{esc(etiket)}: {esc(deger)}</title>
+<style>{font_css("JetBrains Mono:700")}</style>
+<rect width="{sol}" height="28" fill="{KOKBOYA}"/><rect x="{sol}" width="{sag}" height="28" fill="{GECE}"/>
+<g font-family="'JetBrains Mono',monospace" font-weight="700" font-size="11" letter-spacing="1.5" text-anchor="middle">
+  <text x="{sol / 2 + .75}" y="18" fill="{KREM}">{esc(etiket)}</text>
+  <text x="{sol + sag / 2 + .75}" y="18" fill="{ALTIN_ACIK}">{esc(deger)}</text>
+</g>
+</svg>
+'''
+
+
+def rozetler(u):
+    yildiz = sum(d["stargazerCount"] for d in u["repositories"]["nodes"])
+    return {
+        "rozet-takipci.svg": rozet("TAKİPÇİ", bicim(u["followers"]["totalCount"])),
+        "rozet-yildiz.svg": rozet("YILDIZ", bicim(yildiz)),
+    }
+
+
 # ─────────────────────────────── ÇALIŞTIR ───────────────────────────────
 
 def main():
@@ -347,6 +376,9 @@ def main():
         if icerik:
             (cikti / ad).write_text(icerik, encoding="utf-8")
             print("yazıldı:", cikti / ad)
+    for ad, icerik in rozetler(u).items():
+        (cikti / ad).write_text(icerik, encoding="utf-8")
+        print("yazıldı:", cikti / ad)
 
 
 if __name__ == "__main__":
