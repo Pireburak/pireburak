@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,50:003300,100:00ff00&height=260&section=header&text=PIREBURAK&fontSize=85&fontColor=00ff00&animation=twinkling&fontAlignY=38&desc=Security%20Engineer%20%E2%80%A2%20Python%20Backend%20%E2%80%A2%20Recon%20Tooling&descAlignY=60&descSize=18" width="100%" alt="header" />
 
 <a href="https://github.com/Pireburak">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=26&pause=900&color=00FF00&center=true&vCenter=true&random=false&width=900&height=70&lines=%3E+initializing+session...;%3E+user%3A+Burak+%7C+Pireburak;%3E+role%3A+Security+Engineer+%2B+Python+Backend;%3E+building%3A+ReconClaw+v4.0;%3E+If+you+can't+break+it%2C+you+can't+secure+it." alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=26&pause=900&color=00FF00&center=true&vCenter=true&random=false&width=900&height=70&lines=%3E+initializing+session...;%3E+user%3A+Burak+%7C+Pireburak;%3E+role%3A+Security+Engineer+%2B+Python+Backend;%3E+building%3A+ReconClaw+v4.0;%3E+fuel%3A+demli+%C3%A7ay+%7C+made+in+T%C3%BCrkiye;%3E+If+you+can't+break+it%2C+you+can't+secure+it." alt="Typing intro" />
 </a>
 
 <br/>
@@ -31,6 +31,7 @@ burak — security-minded software engineer
 └─$ cat about.txt
 [+] Sistemleri nasıl kırıldıklarını anlayarak tasarlıyorum.
 [+] Keşif → servis parmak izi → zafiyet analizi → sağlam backend mimarisi.
+[+] Yakıt: demli çay. Menşei: Türkiye 🇹🇷
 [+] I build tools at the intersection of network recon & secure system design.
 
 ┌──(pireburak㉿kali)-[~]
@@ -64,6 +65,41 @@ coffee:    ████████████ 100%
 </td>
 </tr>
 </table>
+
+<!-- ═══════════════════════════════ TÜRKİYE ═══════════════════════════════ -->
+
+## `> cd ~/turkiye && cat /etc/turkiye`
+
+<div align="center">
+  <img src="assets/turkiye.svg" width="100%" alt="pireburak@kali: cat /etc/turkiye — ay yıldız ve Türkiye bilgileri" />
+  <br/>
+  <sub>Ay yıldız, <b>Türk Bayrağı Kanunu</b>'ndaki resmi oranlarla elle çizildi. 🇹🇷</sub>
+</div>
+
+<details>
+<summary><b>☕ <code>systemctl status cay.service</code> (tıkla)</b></summary>
+<br/>
+
+```bash
+┌──(pireburak㉿kali)-[~]
+└─$ systemctl status cay.service
+● cay.service - Türk Çayı Demleme Servisi (Rize, çift katlı çaydanlık)
+     Loaded: loaded (/etc/systemd/system/cay.service; enabled; preset: tavşan kanı)
+     Active: active (demleniyor) since 07:00 +03; her gün, tatil yok
+    Process: ince belli bardak · şeker opsiyonel · bardak altlığı zorunlu
+     Memory: ☕ × ∞
+     CGroup: /mutfak.slice/cay.service
+             ├─ demlik     (üst kat)  — 15 dk demlenir, acele edilmez
+             └─ çaydanlık  (alt kat)  — su hep kaynar
+
+07:00:01 kali systemd[1]: Started Türk Çayı Demleme Servisi.
+07:15:00 kali cay[1923]: [+] Demlendi. Renk kontrolü: tavşan kanı ✓
+10:30:12 kali cay[1923]: [!] Bardak boş — auto-refill tetiklendi.
+16:00:00 kali cay[1923]: [+] İkindi çayı + simit modu aktif. 🥯
+02:14:59 kali cay[1923]: [~] Gece mesaisi: exploit analizi + son demlik.
+```
+
+</details>
 
 <!-- ═══════════════════════════════ ARSENAL ═══════════════════════════════ -->
 
@@ -160,6 +196,48 @@ flowchart TD
 
 </details>
 
+<!-- ═══════════════════════════════ SİBER SÖZLÜK ═══════════════════════════════ -->
+
+## `> man siber-sozluk`
+
+Güvenlik Türkçe de konuşulur. Terimlerin Türkçesini kullanmaya özen gösteriyorum:
+
+<details>
+<summary><b>📖 Türkçe siber güvenlik sözlüğü (tıkla)</b></summary>
+<br/>
+
+| 🇹🇷 Türkçe | 🇬🇧 English | 💬 Tek cümlede |
+| --- | --- | --- |
+| **Keşif** | Reconnaissance | Hedefi tanımadan hiçbir şeye dokunma. |
+| **Parmak izi çıkarma** | Fingerprinting | Hangi servis, hangi sürüm, hangi işletim sistemi? |
+| **Zafiyet** | Vulnerability | Sistemdeki zayıf nokta. |
+| **İstismar** | Exploit | O zayıf noktayı kullanan kod ya da teknik. |
+| **Sıfırıncı gün açığı** | Zero-day | Üreticinin henüz haberi olmayan zafiyet. |
+| **Sızma testi** | Penetration test | İzinli saldırı, gerçek rapor. |
+| **Oltalama** | Phishing | Tatlı dil, sahte link, gerçek kayıp. |
+| **Fidye yazılımı** | Ransomware | Dosyalarını şifreler, fidye ister. Yedek al. |
+| **Kötücül yazılım** | Malware | Adı üstünde. |
+| **Kaba kuvvet saldırısı** | Brute force | Tüm kombinasyonları dene; rate limit'e takıl. |
+| **Bal küpü** | Honeypot | Saldırganı oyalayan, onu izleyen tuzak sistem. |
+| **Güvenlik duvarı** | Firewall | Kapıdaki bekçi. |
+| **En az yetki ilkesi** | Least privilege | Gerektiği kadar yetki, fazlası değil. |
+
+</details>
+
+<!-- ═══════════════════════════════ TR BİLİŞİM TARİHİ ═══════════════════════════════ -->
+
+## `> git log --oneline turkiye/bilisim`
+
+```diff
++ (staged)  pireburak: sıradaki commit Anadolu'dan geliyor 🚀
+* 2025  Siber Güvenlik Başkanlığı kuruldu · 7545 sayılı Siber Güvenlik Kanunu kabul edildi
+* 2018  İlk TEKNOFEST düzenlendi — milli teknoloji hamlesi sahaya indi
+* 2016  6698 sayılı KVKK yürürlüğe girdi — kişisel veri artık kanunla korunuyor
+* 2013  USOM (Ulusal Siber Olaylara Müdahale Merkezi) kuruldu
+* 1993  12 Nisan: ODTÜ üzerinden Türkiye'nin ilk internet bağlantısı kuruldu
+* 1960  Türkiye'nin ilk bilgisayarı IBM 650, Karayolları Genel Müdürlüğü'nde çalıştı
+```
+
 <!-- ═══════════════════════════════ ROADMAP ═══════════════════════════════ -->
 
 ## `> cat roadmap.todo`
@@ -171,6 +249,22 @@ flowchart TD
 - [ ] Docker imajı + tek komutla kurulum
 - [ ] Rapor dışa aktarma (PDF / JSON)
 - [ ] Plugin sistemi (özel tarama modülleri)
+
+<!-- ═══════════════════════════════ ATASÖZÜ ═══════════════════════════════ -->
+
+## `> fortune tr-atasozleri`
+
+Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yorumlanır (GitHub Actions ⚙️):
+
+<!-- ATASOZU:START -->
+```bash
+┌──(pireburak㉿kali)-[~]
+└─$ fortune tr-atasozleri --gun 272
+📜  "Kervan yolda düzülür."
+🛡️  └─> Ama güvenlik yolda sonradan eklenmez.
+```
+<sub>🕰️ Son güncelleme: 29.09.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
+<!-- ATASOZU:END -->
 
 <!-- ═══════════════════════════════ QUOTE ═══════════════════════════════ -->
 
@@ -201,9 +295,9 @@ flowchart TD
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pireburak/Pireburak/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Pireburak/Pireburak/output/github-snake.svg" />
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/Pireburak/Pireburak/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pireburak/pireburak/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Pireburak/pireburak/output/github-snake.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/Pireburak/pireburak/output/github-snake-dark.svg" />
   </picture>
 </div>
 
