@@ -8,7 +8,7 @@ import math
 import random
 
 from ortak import (AL, ALTIN, ALTIN_ACIK, CINI, GECE, GECE2, KILIM_SATIR, KOBALT, KOK,
-                   KREM, LACIVERT, SOLUK, altin_gradyan, font_css, hatayi, kilim_serit,
+                   KREM, LACIVERT, SOLUK, altin_gradyan, esc, font_css, hatayi, kilim_serit,
                    lale, parilti_gradyan, selcuklu_deseni, tezhip_cerceve, yildiz_noktalari)
 
 CIKTI = KOK / "assets"
@@ -415,6 +415,66 @@ def altbilgi():
     return svg(W, H, "Ne mutlu Türküm diyene!", govde, ("Cinzel:700", "Great Vibes", "JetBrains Mono:400"))
 
 
+# ─────────────────────────────── 6) METODOLOJİ ───────────────────────────────
+
+ADIMLAR = [
+    ("KEŞİF", "OSINT", ["Kapsam, alan adları,", "ASN ve açık kaynak iz"]),
+    ("HARİTA", "PORT & SERVİS", ["Async tarama ile", "açık kapıları çıkar"]),
+    ("İSTİHBARAT", "BANNER & SÜRÜM", ["Servis parmak izi,", "sürüm bilgisi"]),
+    ("ANALİZ", "CVE & RİSK", ["Sürüm → CVE eşleme,", "risk önceliği"]),
+    ("SIKILAŞTIR", "DÜZELTME", ["Her bulguya somut", "bir düzeltme önerisi"]),
+    ("DOĞRULA", "RAPOR", ["Yeniden test et,", "net raporla"]),
+]
+
+
+def metodoloji():
+    W, H = 1000, 360
+    y = 120
+    xs = [95 + i * 162 for i in range(len(ADIMLAR))]
+    renkler = [CINI, ALTIN, AL, CINI, ALTIN, AL]
+    parca = []
+    for i, ((baslik_, alt, aciklama), x) in enumerate(zip(ADIMLAR, xs)):
+        g = .25 + i * .35
+        parca.append(f'''<g class="adim" style="animation-delay:{g:.2f}s">
+  <circle cx="{x}" cy="{y}" r="44" fill="{GECE}" stroke="{ALTIN}" stroke-opacity=".35"/>
+  <polygon points="{yildiz_noktalari(x, y, 42, 32)}" fill="{LACIVERT}" stroke="{renkler[i]}" stroke-width="1.8"/>
+  <circle cx="{x}" cy="{y}" r="22" fill="{GECE}" stroke="{ALTIN}" stroke-width="1.2"/>
+  <text x="{x}" y="{y + 9}" text-anchor="middle" class="cz" font-weight="700" font-size="24" fill="url(#altin)">{i + 1}</text>
+  <text x="{x}" y="{y + 72}" text-anchor="middle" class="cz" font-weight="700" font-size="14" letter-spacing="2" fill="{ALTIN}">{baslik_}</text>
+  <text x="{x}" y="{y + 91}" text-anchor="middle" class="jb" font-size="10" letter-spacing="1" fill="{renkler[i]}">{esc(alt)}</text>
+  <text x="{x}" y="{y + 113}" text-anchor="middle" class="jb" font-size="10.5" fill="{KREM}">{esc(aciklama[0])}</text>
+  <text x="{x}" y="{y + 128}" text-anchor="middle" class="jb" font-size="10.5" fill="{KREM}">{esc(aciklama[1])}</text>
+</g>''')
+    oklar = "".join(
+        f'<path d="M{a + 50} {y} L{b - 50} {y}" stroke="{ALTIN}" stroke-width="1.5" stroke-dasharray="4 4" marker-end="url(#ok)"/>'
+        for a, b in zip(xs, xs[1:]))
+    donus = f"M{xs[-1]} {y + 140} C{xs[-1]} {y + 190} {xs[0]} {y + 190} {xs[0]} {y + 140}"
+    govde = f'''<defs>
+  {selcuklu_deseni("cini", 52, ALTIN, .06)}
+  {altin_gradyan("altin")}
+  {parilti_gradyan("parilti", "7s")}
+  <marker id="ok" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="{ALTIN}"/></marker>
+  <marker id="ok2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="{CINI}"/></marker>
+</defs>
+<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="16" fill="{GECE}"/>
+<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="16" fill="url(#cini)"/>
+{tezhip_cerceve(12, 12, W - 24, H - 24)}
+<text x="{W/2}" y="52" text-anchor="middle" class="cz" font-weight="700" font-size="18" letter-spacing="5" fill="url(#altin)">YETKİLİ DEĞERLENDİRME HATTI</text>
+<g fill="none">{oklar}
+  <path d="{donus}" stroke="{CINI}" stroke-opacity=".6" stroke-width="1.5" stroke-dasharray="3 5" marker-end="url(#ok2)"/>
+</g>
+<circle r="4.5" fill="{ALTIN_ACIK}">
+  <animateMotion dur="7s" repeatCount="indefinite" path="M{xs[0]} {y} L{xs[-1]} {y}"/>
+</circle>
+<text x="{W/2}" y="{y + 203}" text-anchor="middle" class="jb" font-size="10.5" fill="{CINI}">← geri besleme: her rapor bir sonraki keşfin girdisidir</text>
+{"".join(parca)}
+'''
+    stil = (".adim{animation:adim .7s ease-out both}"
+            "@keyframes adim{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}")
+    return svg(W, H, "Yetkili değerlendirme hattı: Keşif, Harita, İstihbarat, Analiz, Sıkılaştır, Doğrula", govde,
+               ("Cinzel:700", "JetBrains Mono:400"), stil)
+
+
 # ─────────────────────────────── ÇALIŞTIR ───────────────────────────────
 
 URETICILER = {
@@ -423,6 +483,7 @@ URETICILER = {
     "ataturk.svg": ataturk,
     "gokler.svg": gokler,
     "altbilgi.svg": altbilgi,
+    "metodoloji.svg": metodoloji,
 }
 
 
