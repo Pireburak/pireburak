@@ -248,11 +248,11 @@ Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yor
 <!-- ATASOZU:START -->
 ```bash
 ┌──(pireburak㉿kali)-[~]
-└─$ fortune tr-atasozleri --gun 272
-📜  "Kervan yolda düzülür."
-🛡️  └─> Ama güvenlik yolda sonradan eklenmez.
+└─$ fortune tr-atasozleri --gun 273
+📜  "Minareyi çalan kılıfını hazırlar."
+🛡️  └─> Saldırgan da izini siler; logları merkezi tut.
 ```
-<sub>🕰️ Son güncelleme: 29.09.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
+<sub>🕰️ Son güncelleme: 30.09.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
 <!-- ATASOZU:END -->
 
 <!-- ═══════════════════════════════ ROADMAP ═══════════════════════════════ -->
