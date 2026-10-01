@@ -248,11 +248,11 @@ Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yor
 <!-- ATASOZU:START -->
 ```bash
 ┌──(pireburak㉿kali)-[~]
-└─$ fortune tr-atasozleri --gun 273
-📜  "Minareyi çalan kılıfını hazırlar."
-🛡️  └─> Saldırgan da izini siler; logları merkezi tut.
+└─$ fortune tr-atasozleri --gun 274
+📜  "Sabrın sonu selamettir."
+🛡️  └─> Sabırlı keşif, gürültülü brute-force'tan iyidir.
 ```
-<sub>🕰️ Son güncelleme: 30.09.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
+<sub>🕰️ Son güncelleme: 01.10.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
 <!-- ATASOZU:END -->
 
 <!-- ═══════════════════════════════ ROADMAP ═══════════════════════════════ -->
