@@ -248,11 +248,11 @@ Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yor
 <!-- ATASOZU:START -->
 ```bash
 ┌──(pireburak㉿kali)-[~]
-└─$ fortune tr-atasozleri --gun 274
-📜  "Sabrın sonu selamettir."
-🛡️  └─> Sabırlı keşif, gürültülü brute-force'tan iyidir.
+└─$ fortune tr-atasozleri --gun 275
+📜  "İşleyen demir ışıldar."
+🛡️  └─> Her gün biraz CTF, her gün biraz daha keskin.
 ```
-<sub>🕰️ Son güncelleme: 01.10.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
+<sub>🕰️ Son güncelleme: 02.10.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
 <!-- ATASOZU:END -->
 
 <!-- ═══════════════════════════════ ROADMAP ═══════════════════════════════ -->
