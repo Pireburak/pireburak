@@ -248,11 +248,11 @@ Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yor
 <!-- ATASOZU:START -->
 ```bash
 ┌──(pireburak㉿kali)-[~]
-└─$ fortune tr-atasozleri --gun 277
-📜  "Damlaya damlaya göl olur."
-🛡️  └─> Küçük bilgi sızıntıları da büyük bir ihlale dönüşür.
+└─$ fortune tr-atasozleri --gun 278
+📜  "Sakla samanı, gelir zamanı."
+🛡️  └─> Logları sakla; olay müdahalesinde hepsi lazım olur.
 ```
-<sub>🕰️ Son güncelleme: 04.10.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
+<sub>🕰️ Son güncelleme: 05.10.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
 <!-- ATASOZU:END -->
 
 <!-- ═══════════════════════════════ ROADMAP ═══════════════════════════════ -->
