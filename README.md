@@ -248,11 +248,11 @@ Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yor
 <!-- ATASOZU:START -->
 ```bash
 ┌──(pireburak㉿kali)-[~]
-└─$ fortune tr-atasozleri --gun 278
-📜  "Sakla samanı, gelir zamanı."
-🛡️  └─> Logları sakla; olay müdahalesinde hepsi lazım olur.
+└─$ fortune tr-atasozleri --gun 279
+📜  "Ak akçe kara gün içindir."
+🛡️  └─> Yedek de kara gün içindir: 3-2-1 kuralını unutma.
 ```
-<sub>🕰️ Son güncelleme: 05.10.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
+<sub>🕰️ Son güncelleme: 06.10.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
 <!-- ATASOZU:END -->
 
 <!-- ═══════════════════════════════ ROADMAP ═══════════════════════════════ -->
