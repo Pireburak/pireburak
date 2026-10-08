@@ -248,11 +248,11 @@ Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yor
 <!-- ATASOZU:START -->
 ```bash
 ┌──(pireburak㉿kali)-[~]
-└─$ fortune tr-atasozleri --gun 280
-📜  "Bin bilsen de bir bilene danış."
-🛡️  └─> Code review atlanmaz.
+└─$ fortune tr-atasozleri --gun 281
+📜  "Aceleyle giden ecele gider."
+🛡️  └─> Test edilmeden prod'a çıkan yama da.
 ```
-<sub>🕰️ Son güncelleme: 07.10.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
+<sub>🕰️ Son güncelleme: 08.10.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
 <!-- ATASOZU:END -->
 
 <!-- ═══════════════════════════════ ROADMAP ═══════════════════════════════ -->
