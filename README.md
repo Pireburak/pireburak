@@ -248,11 +248,11 @@ Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yor
 <!-- ATASOZU:START -->
 ```bash
 ┌──(pireburak㉿kali)-[~]
-└─$ fortune tr-atasozleri --gun 281
-📜  "Aceleyle giden ecele gider."
-🛡️  └─> Test edilmeden prod'a çıkan yama da.
+└─$ fortune tr-atasozleri --gun 282
+📜  "Ağaç yaşken eğilir."
+🛡️  └─> Güvenlik tasarım aşamasında başlar: secure by design.
 ```
-<sub>🕰️ Son güncelleme: 08.10.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
+<sub>🕰️ Son güncelleme: 09.10.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
 <!-- ATASOZU:END -->
 
 <!-- ═══════════════════════════════ ROADMAP ═══════════════════════════════ -->
