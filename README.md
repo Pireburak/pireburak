@@ -248,11 +248,11 @@ Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yor
 <!-- ATASOZU:START -->
 ```bash
 ┌──(pireburak㉿kali)-[~]
-└─$ fortune tr-atasozleri --gun 282
-📜  "Ağaç yaşken eğilir."
-🛡️  └─> Güvenlik tasarım aşamasında başlar: secure by design.
+└─$ fortune tr-atasozleri --gun 283
+📜  "Bir musibet bin nasihatten iyidir."
+🛡️  └─> Her olay bir post-mortem, her post-mortem bir ders.
 ```
-<sub>🕰️ Son güncelleme: 09.10.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
+<sub>🕰️ Son güncelleme: 10.10.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
 <!-- ATASOZU:END -->
 
 <!-- ═══════════════════════════════ ROADMAP ═══════════════════════════════ -->
