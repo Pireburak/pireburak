@@ -248,11 +248,11 @@ Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yor
 <!-- ATASOZU:START -->
 ```bash
 ┌──(pireburak㉿kali)-[~]
-└─$ fortune tr-atasozleri --gun 286
-📜  "Söz gümüşse sükût altındır."
-🛡️  └─> Hata mesajları da az konuşmalı; stack trace sızdırma.
+└─$ fortune tr-atasozleri --gun 287
+📜  "Bugünün işini yarına bırakma."
+🛡️  └─> Bugünün yamasını da.
 ```
-<sub>🕰️ Son güncelleme: 13.10.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
+<sub>🕰️ Son güncelleme: 14.10.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
 <!-- ATASOZU:END -->
 
 <!-- ═══════════════════════════════ ROADMAP ═══════════════════════════════ -->
