@@ -248,11 +248,11 @@ Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yor
 <!-- ATASOZU:START -->
 ```bash
 ┌──(pireburak㉿kali)-[~]
-└─$ fortune tr-atasozleri --gun 288
-📜  "Tatlı dil yılanı deliğinden çıkarır."
-🛡️  └─> Sosyal mühendislik de öyle; oltalamaya dikkat.
+└─$ fortune tr-atasozleri --gun 289
+📜  "Duvarın da kulağı var."
+🛡️  └─> Şifrelenmemiş trafiğin de: her yerde TLS.
 ```
-<sub>🕰️ Son güncelleme: 15.10.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
+<sub>🕰️ Son güncelleme: 16.10.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
 <!-- ATASOZU:END -->
 
 <!-- ═══════════════════════════════ ROADMAP ═══════════════════════════════ -->
