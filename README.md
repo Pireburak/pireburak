@@ -248,11 +248,11 @@ Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yor
 <!-- ATASOZU:START -->
 ```bash
 ┌──(pireburak㉿kali)-[~]
-└─$ fortune tr-atasozleri --gun 290
-📜  "Yalancının mumu yatsıya kadar yanar."
-🛡️  └─> Sahte sertifikanın da; imzaları doğrula.
+└─$ fortune tr-atasozleri --gun 291
+📜  "Her yiğidin bir yoğurt yiyişi vardır."
+🛡️  └─> Her saldırganın bir TTP'si: MITRE ATT&CK.
 ```
-<sub>🕰️ Son güncelleme: 17.10.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
+<sub>🕰️ Son güncelleme: 18.10.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
 <!-- ATASOZU:END -->
 
 <!-- ═══════════════════════════════ ROADMAP ═══════════════════════════════ -->
