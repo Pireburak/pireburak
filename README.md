@@ -248,11 +248,11 @@ Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yor
 <!-- ATASOZU:START -->
 ```bash
 ┌──(pireburak㉿kali)-[~]
-└─$ fortune tr-atasozleri --gun 291
-📜  "Her yiğidin bir yoğurt yiyişi vardır."
-🛡️  └─> Her saldırganın bir TTP'si: MITRE ATT&CK.
+└─$ fortune tr-atasozleri --gun 292
+📜  "Keskin sirke küpüne zarar."
+🛡️  └─> Agresif tarama hem hedefi hem seni yakar; rate limit koy.
 ```
-<sub>🕰️ Son güncelleme: 18.10.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
+<sub>🕰️ Son güncelleme: 19.10.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
 <!-- ATASOZU:END -->
 
 <!-- ═══════════════════════════════ ROADMAP ═══════════════════════════════ -->
