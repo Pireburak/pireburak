@@ -248,11 +248,11 @@ Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yor
 <!-- ATASOZU:START -->
 ```bash
 ┌──(pireburak㉿kali)-[~]
-└─$ fortune tr-atasozleri --gun 294
-📜  "Güvenme varlığa, düşersin darlığa."
-🛡️  └─> Güvenme varsayılan ayarlara, düşersin ihlale.
+└─$ fortune tr-atasozleri --gun 295
+📜  "Üzüm üzüme baka baka kararır."
+🛡️  └─> Yamanmamış tek sunucu bütün ağı riske atar.
 ```
-<sub>🕰️ Son güncelleme: 21.10.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
+<sub>🕰️ Son güncelleme: 22.10.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
 <!-- ATASOZU:END -->
 
 <!-- ═══════════════════════════════ ROADMAP ═══════════════════════════════ -->
