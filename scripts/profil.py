@@ -5,7 +5,7 @@ Kullanım:
   python scripts/profil.py --veri ornek.json --cikti /tmp/onizleme   # çevrimdışı önizleme
 
 Üretilen dosyalar: istatistik.svg, diller.svg, katki-kilimi.svg, reconclaw.svg,
-rozet-takipci.svg, rozet-yildiz.svg
+rozet-takipci.svg, rozet-yildiz.svg, proje-*.svg
 """
 
 import argparse
@@ -23,6 +23,27 @@ from ortak import (AL, ALTIN, ALTIN_ACIK, CINI, GECE, GECE2, KILIM_SATIR, KOKBOY
                    parilti_gradyan, selcuklu_deseni, tezhip_cerceve, yildiz_noktalari)
 
 ONE_CIKAN_DEPO = "ReconClaw"
+
+# GitHub'da açıklaması boş olan depolar için yedek açıklamalar
+YEDEK_ACIKLAMA = {
+    "ReconClaw": "Asenkron ağ keşfi, sürekli saldırı yüzeyi izleme ve yapay zekâ destekli risk analiz "
+                 "platformu: MITRE ATT&CK, ISO 27001 / KVKK uyumu, A+…F güvenlik karnesi.",
+}
+
+# Profilde kartı çıkacak diğer açık kaynak projeler: (GraphQL takma adı, depo adı, dosya, yedek açıklama)
+PROJELER = [
+    ("finalproje", "Finalproject_MacOS", "proje-webkit.svg",
+     "CVE-2026-3312: Apple WebKit WebCore use-after-free zafiyetinin analizi, CVSS skorlaması ve "
+     "Rust ile güvenli simülasyonu."),
+    ("vize", "miterm-Burak-Ozdemir", "proje-tarayici.svg",
+     "Rust ile yazılmış ağ keşif aracı: port tarama, banner yakalama, DNS, HTTP başlık analizi ve "
+     "dizin keşfi modülleri; CI/CD ve Docker."),
+    ("osint", "OSINT-veritabani", "proje-osint.svg",
+     "Siber tehdit istihbaratı toplayıcı: NVD, Exploit-DB ve güvenlik haber kaynaklarını çekip "
+     "konulara göre sınıflandırır."),
+]
+
+_DEPO_ALANLARI = "name description stargazerCount forkCount url primaryLanguage { name color }"
 
 SORGU = """
 query($login: String!, $depo: String!) {
@@ -48,13 +69,12 @@ query($login: String!, $depo: String!) {
         weeks { contributionDays { date contributionCount contributionLevel } }
       }
     }
-    repository(name: $depo) {
-      name description stargazerCount forkCount url
-      primaryLanguage { name color }
-    }
+    repository(name: $depo) { %s }
+%s
   }
 }
-"""
+""" % (_DEPO_ALANLARI, "\n".join(
+    f'    {takma}: repository(name: "{ad}") {{ {_DEPO_ALANLARI} }}' for takma, ad, _, _ in PROJELER))
 
 
 def veri_cek(kullanici: str, token: str) -> dict:
@@ -67,6 +87,7 @@ def veri_cek(kullanici: str, token: str) -> dict:
     with urllib.request.urlopen(istek, timeout=30) as yanit:
         govde = json.load(yanit)
     if govde.get("errors") and not (govde.get("data") or {}).get("user"):
+        # Bir proje deposu bulunamazsa yalnızca o kart atlanır; kullanıcı verisi yoksa dur.
         raise SystemExit(f"GraphQL hatası: {govde['errors']}")
     return govde["data"]["user"]
 
@@ -299,7 +320,8 @@ def depo_karti(u):
     d = u.get("repository")
     if not d:
         return None
-    satirlar = textwrap.wrap(d.get("description") or "Açıklama yok.", 88)[:2]
+    aciklama = d.get("description") or YEDEK_ACIKLAMA.get(d["name"], "Açıklama yok.")
+    satirlar = textwrap.wrap(aciklama, 88)[:2]
     dil = d.get("primaryLanguage") or {"name": "—", "color": SOLUK}
     govde = [kart_zemini(W, H, "ÖNE ÇIKAN DEPO", "github.com/" + u["login"] + "/" + d["name"])]
     govde.append(lale(64, 118, .5, 0))
@@ -321,6 +343,35 @@ def depo_karti(u):
   <circle cx="14" cy="-18" r="2.5" fill="{AL}"><animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/></circle>
 </g>''')
     return svg(W, H, f"{d['name']} — öne çıkan depo", "".join(govde))
+
+
+def _meta(d, x, y):
+    dil = d.get("primaryLanguage") or {"name": "—", "color": SOLUK}
+    return f'''<g class="jb" font-size="12" transform="translate({x} {y})">
+  <circle cx="5" cy="-4" r="5" fill="{dil["color"] or SOLUK}"/><text x="16" y="0" fill="{KREM}">{esc(dil["name"])}</text>
+  <polygon points="{yildiz_noktalari(136, -4, 7, 3, 5)}" fill="{ALTIN}"/><text x="148" y="0" fill="{KREM}">{bicim(d["stargazerCount"])}</text>
+  <g fill="none" stroke="{CINI}" stroke-width="1.6"><circle cx="198" cy="-11" r="2.2"/><circle cx="210" cy="-11" r="2.2"/><circle cx="204" cy="3" r="2.2"/>
+    <path d="M198 -8.8 v2.8 q0 3 3 3 h6 q3 0 3 -3 v-2.8 M204 -3 v3.8"/></g><text x="220" y="0" fill="{KREM}">{bicim(d["forkCount"])}</text>
+</g>'''
+
+
+KATEGORI = {"finalproje": "ZAFİYET ANALİZİ", "vize": "AĞ KEŞİF ARACI", "osint": "TEHDİT İSTİHBARATI"}
+
+
+def proje_karti(u, takma, yedek):
+    """İki sütunlu yerleşim için küçük proje kartı."""
+    W, H = 495, 245
+    d = u.get(takma)
+    if not d:
+        return None
+    satirlar = textwrap.wrap(d.get("description") or yedek, 54)[:3]
+    govde = [kart_zemini(W, H, KATEGORI.get(takma, "PROJE"), "")]
+    govde.append(lale(52, 102, .36, 0))
+    govde.append(f'<text x="76" y="110" class="cz" font-size="21" fill="url(#altin)">{esc(d["name"])}</text>')
+    for i, satir in enumerate(satirlar):
+        govde.append(f'<text x="36" y="{142 + i * 18}" class="jb" font-size="12" fill="{KREM}">{esc(satir)}</text>')
+    govde.append(_meta(d, 36, 212))
+    return svg(W, H, f"{d['name']} — proje kartı", "".join(govde))
 
 
 # ─────────────────────────────── 5) ROZETLER ───────────────────────────────
@@ -373,6 +424,11 @@ def main():
     for ad, fn in (("istatistik.svg", istatistik_karti), ("diller.svg", diller_karti),
                    ("katki-kilimi.svg", kilim_karti), ("reconclaw.svg", depo_karti)):
         icerik = fn(u)
+        if icerik:
+            (cikti / ad).write_text(icerik, encoding="utf-8")
+            print("yazıldı:", cikti / ad)
+    for takma, _, ad, yedek in PROJELER:
+        icerik = proje_karti(u, takma, yedek)
         if icerik:
             (cikti / ad).write_text(icerik, encoding="utf-8")
             print("yazıldı:", cikti / ad)
