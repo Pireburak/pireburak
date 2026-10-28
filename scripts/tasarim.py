@@ -7,7 +7,7 @@ Fontlar assets/fonts altındaki alt kümelenmiş WOFF2 dosyalarından gömülür
 import math
 import random
 
-from ortak import (AL, ALTIN, ALTIN_ACIK, CINI, GECE, GECE2, KILIM_SATIR, KOBALT, KOK,
+from ortak import (AL, ALTIN, ALTIN_ACIK, CINI, GECE, GECE2, KILIM_SATIR, KOBALT, KOK, KOKBOYA,
                    KREM, LACIVERT, SOLUK, altin_gradyan, esc, font_css, hatayi, kilim_serit,
                    lale, parilti_gradyan, selcuklu_deseni, tezhip_cerceve, yildiz_noktalari)
 
@@ -475,6 +475,81 @@ def metodoloji():
                ("Cinzel:700", "JetBrains Mono:400"), stil)
 
 
+# ─────────────────────────────── 7) RECONCLAW ÖZETİ ───────────────────────────────
+
+RC_SAYILAR = [
+    ("v9.0", "SÜRÜM · CORTEX"),
+    ("130+", "OTOMATİK TEST"),
+    ("14", "ATT&CK TAKTİĞİ"),
+    ("A+…F", "GÜVENLİK KARNESİ"),
+    ("8", "ISO 27001 KONTROLÜ"),
+    ("7/24", "SÜREKLİ İZLEME"),
+]
+
+RC_SURUMLER = [
+    ("v1–3", "ilk tarayıcı"),
+    ("v4 Phantom", "modüler motor"),
+    ("v5 Nebula", "çok kullanıcı"),
+    ("v6 Aurora", "gizli dosya UI"),
+    ("v7 Sentinel", "izleme + pasif keşif"),
+    ("v8 Cortex", "ATT&CK · AI Analist"),
+    ("v9 Cortex", "ödeme · yasal"),
+]
+
+
+def reconclaw_ozet():
+    W, H = 1000, 420
+    my = 196
+    xs = [95 + i * 162 for i in range(len(RC_SAYILAR))]
+    renkler = [AL, CINI, ALTIN, AL, CINI, ALTIN]
+    madalyon = []
+    for i, ((deger, etiket), x) in enumerate(zip(RC_SAYILAR, xs)):
+        boyut = 22 if len(deger) <= 4 else 18
+        madalyon.append(f'''<g class="belir" style="animation-delay:{.2 + i * .15:.2f}s">
+  <polygon points="{yildiz_noktalari(x, my, 50, 40)}" fill="{LACIVERT}" stroke="{renkler[i]}" stroke-width="1.8"/>
+  <circle cx="{x}" cy="{my}" r="33" fill="{GECE}" stroke="{ALTIN}" stroke-width="1.2"/>
+  <text x="{x}" y="{my + 8}" text-anchor="middle" class="cz" font-weight="700" font-size="{boyut}" fill="url(#altin)">{esc(deger)}</text>
+  <text x="{x}" y="{my + 72}" text-anchor="middle" class="jb" font-size="10" letter-spacing="1.2" fill="{KREM}">{esc(etiket)}</text>
+</g>''')
+    ty = 340
+    tx = [85 + i * 138 for i in range(len(RC_SURUMLER))]
+    hat = []
+    for i, ((ad, not_), x) in enumerate(zip(RC_SURUMLER, tx)):
+        son = i == len(RC_SURUMLER) - 1
+        renk = AL if son else ALTIN
+        hat.append(f'<circle cx="{x}" cy="{ty}" r="{7 if son else 5}" fill="{GECE}" stroke="{renk}" stroke-width="2"/>')
+        if son:
+            hat.append(f'<circle cx="{x}" cy="{ty}" r="7" fill="none" stroke="{AL}"><animate attributeName="r" values="7;16;7" dur="2s" repeatCount="indefinite"/>'
+                       f'<animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/></circle>')
+        hat.append(f'<text x="{x}" y="{ty - 16}" text-anchor="middle" class="jb" font-size="11.5" fill="{ALTIN_ACIK if son else KREM}" font-weight="700">{esc(ad)}</text>')
+        hat.append(f'<text x="{x}" y="{ty + 26}" text-anchor="middle" class="jb" font-size="10" fill="{SOLUK}">{esc(not_)}</text>')
+    govde = f'''<defs>
+  {selcuklu_deseni("cini", 52, ALTIN, .06)}
+  {altin_gradyan("altin")}
+  {parilti_gradyan("parilti", "7s")}
+  <linearGradient id="hatg" gradientUnits="userSpaceOnUse" x1="{tx[0]}" y1="0" x2="{tx[-1]}" y2="0"><stop offset="0" stop-color="{ALTIN}" stop-opacity=".25"/><stop offset="1" stop-color="{AL}"/></linearGradient>
+</defs>
+<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="16" fill="{GECE}"/>
+<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="16" fill="url(#cini)"/>
+{tezhip_cerceve(12, 12, W - 24, H - 24)}
+<rect x="12" y="12" width="{W-24}" height="{H-24}" rx="10" fill="none" stroke="url(#parilti)" stroke-width="2.5"/>
+<text x="56" y="80" class="cz" font-weight="700" font-size="40" letter-spacing="4" fill="url(#altin)">RECONCLAW</text>
+<text x="56" y="80" class="cz" font-weight="700" font-size="40" letter-spacing="4" fill="url(#parilti)">RECONCLAW</text>
+<g transform="translate(372 52)"><rect width="128" height="34" rx="6" fill="{KOKBOYA}"/>
+  <text x="64" y="23" text-anchor="middle" class="jb" font-weight="700" font-size="14" letter-spacing="2" fill="{KREM}">v9.0 CORTEX</text></g>
+<text x="56" y="112" class="jb" font-size="13" fill="{KREM}">Saldırı yüzeyi yönetimi <tspan fill="{ALTIN}">·</tspan> AI destekli risk analizi <tspan fill="{ALTIN}">·</tspan> Türkçe, KVKK odaklı</text>
+<text x="944" y="80" text-anchor="end" class="jb" font-size="11" fill="{SOLUK}">keşfet → skorla → eşle → izle → raporla</text>
+{"".join(madalyon)}
+<line x1="{tx[0]}" y1="{ty}" x2="{tx[-1]}" y2="{ty}" stroke="url(#hatg)" stroke-width="2.5"/>
+<circle r="4" fill="{ALTIN_ACIK}"><animateMotion dur="5s" repeatCount="indefinite" path="M{tx[0]} {ty} L{tx[-1]} {ty}"/></circle>
+{"".join(hat)}
+'''
+    stil = (".belir{animation:belir .7s ease-out both}"
+            "@keyframes belir{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}")
+    return svg(W, H, "ReconClaw v9.0 Cortex — özet: 130+ test, 14 MITRE taktiği, A+…F karne, ISO 27001 / KVKK, sürekli izleme",
+               govde, ("Cinzel:700", "JetBrains Mono:400", "JetBrains Mono:700"), stil)
+
+
 # ─────────────────────────────── ÇALIŞTIR ───────────────────────────────
 
 URETICILER = {
@@ -484,6 +559,7 @@ URETICILER = {
     "gokler.svg": gokler,
     "altbilgi.svg": altbilgi,
     "metodoloji.svg": metodoloji,
+    "reconclaw-ozet.svg": reconclaw_ozet,
 }
 
 

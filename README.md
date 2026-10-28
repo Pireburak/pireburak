@@ -4,13 +4,13 @@
 <img src="assets/baslik.svg" width="100%" alt="PİREBURAK — Siber Güvenlik Mühendisi · Python Backend · Keşif Araçları" />
 
 <a href="https://github.com/Pireburak">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=D4AF37&center=true&vCenter=true&random=false&width=900&height=60&lines=%3E%20initializing%20session...;%3E%20user%3A%20Burak%20%7C%20Pireburak;%3E%20role%3A%20Security%20Engineer%20%2B%20Python%20Backend;%3E%20building%3A%20ReconClaw%20v4.0;%3E%20fuel%3A%20demli%20%C3%A7ay%20%7C%20made%20in%20T%C3%BCrkiye;%3E%20%C4%B0stikbal%20g%C3%B6klerdedir." alt="Yazı animasyonu" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=D4AF37&center=true&vCenter=true&random=false&width=900&height=60&lines=%3E%20initializing%20session...;%3E%20user%3A%20Burak%20%7C%20Pireburak;%3E%20role%3A%20Security%20Engineer%20%2B%20Python%20Backend;%3E%20shipping%3A%20ReconClaw%20v9.0%20Cortex;%3E%20MITRE%20ATT%26CK%20%C2%B7%20KVKK%20%C2%B7%20AI%20Analist;%3E%20fuel%3A%20demli%20%C3%A7ay%20%7C%20made%20in%20T%C3%BCrkiye;%3E%20%C4%B0stikbal%20g%C3%B6klerdedir." alt="Yazı animasyonu" />
 </a>
 
 <img src="https://komarev.com/ghpvc/?username=Pireburak&label=ZİYARETÇİ&color=A4161A&style=for-the-badge" alt="Profil ziyaretleri" />
 <a href="https://github.com/Pireburak?tab=followers"><img src="https://raw.githubusercontent.com/Pireburak/pireburak/output/rozet-takipci.svg" alt="Takipçi" /></a>
 <a href="https://github.com/Pireburak?tab=repositories"><img src="https://raw.githubusercontent.com/Pireburak/pireburak/output/rozet-yildiz.svg" alt="Yıldız" /></a>
-<img src="https://img.shields.io/badge/DURUM-İNŞA%20HALİNDE-D4AF37?style=for-the-badge&labelColor=0B1426" alt="Durum" />
+<a href="https://github.com/Pireburak/ReconClaw"><img src="https://img.shields.io/badge/RECONCLAW-v9.0%20CORTEX-D4AF37?style=for-the-badge&labelColor=0B1426" alt="ReconClaw v9.0 Cortex" /></a>
 
 </div>
 
@@ -26,8 +26,8 @@ burak — security-minded software engineer
 ┌──(pireburak㉿kali)-[~]
 └─$ cat about.txt
 [+] Sistemleri nasıl kırıldıklarını anlayarak tasarlıyorum.
-[+] Keşif → servis parmak izi → zafiyet analizi → sağlam backend mimarisi.
-[+] I build tools at the intersection of network recon & secure system design.
+[+] Keşif → risk skoru → ATT&CK saldırı zinciri → KVKK uyumu → aksiyon planı.
+[+] Saldırı yüzeyi yönetimi, mobil runtime analizi ve kurumsal ağ güvenliği üzerine çalışıyorum.
 [+] Yakıt: demli çay. Menşei: Anadolu. Pusula: bilim.
 
 ┌──(pireburak㉿kali)-[~]
@@ -40,10 +40,10 @@ burak — security-minded software engineer
 <td width="50%" valign="top">
 
 ### 🎯 Şu an
-- 🛰️ **ReconClaw v4.0** — async tarayıcı + threat intel UI
-- 🧠 AI destekli CVE eşleme ve risk skorlaması
-- ⚡ FastAPI ile yüksek performanslı güvenlik API'leri
-- 📚 Derinleşiyor: exploit analizi, ağ protokolleri
+- 🦝 **ReconClaw v9.0 Cortex**: canlıya hazırlık (ödeme altyapısı, yasal sayfalar, bot koruması)
+- 🏆 ReconClaw için **TÜBİTAK / TEKNOFEST** proje dosyası
+- 📱 **Android runtime injection**: Frida, ADB, MobSF ile mobil analiz
+- 🌐 **Kurumsal ağ tasarımı**: VLAN segmentasyonu, QoS, NGFW kuralları
 
 </td>
 <td width="50%" valign="top">
@@ -52,8 +52,8 @@ burak — security-minded software engineer
 ```yaml
 alias:     Pireburak
 location:  Türkiye 🇹🇷
-focus:     [Recon, OSINT, CVE, APIs]
-languages: [Python, C++, Bash, JS]
+focus:     [Recon, ASM, ATT&CK, Mobile, Network]
+languages: [Python, Rust, C++, Bash, JS]
 os:        Kali Linux
 çay:       ████████████ 100%
 ```
@@ -80,7 +80,7 @@ os:        Kali Linux
 
 **⚙️ Çekirdek & Backend**
 
-<img src="https://skillicons.dev/icons?i=python,fastapi,cpp,sqlite,bash&theme=dark" alt="Çekirdek" />
+<img src="https://skillicons.dev/icons?i=python,fastapi,rust,cpp,sqlite,bash&theme=dark" alt="Çekirdek" />
 
 **🛡️ Güvenlik Cephaneliği**
 
@@ -89,33 +89,66 @@ os:        Kali Linux
 <img src="https://img.shields.io/badge/Wireshark-0B1426?style=for-the-badge&logo=wireshark&logoColor=D4AF37" alt="Wireshark" />
 <img src="https://img.shields.io/badge/Burp_Suite-0B1426?style=for-the-badge&logo=burpsuite&logoColor=D4AF37" alt="Burp Suite" />
 <img src="https://img.shields.io/badge/Metasploit-0B1426?style=for-the-badge&logo=metasploit&logoColor=D4AF37" alt="Metasploit" />
+<br/>
+<img src="https://img.shields.io/badge/Frida-0B1426?style=for-the-badge" alt="Frida" />
+<img src="https://img.shields.io/badge/MobSF-0B1426?style=for-the-badge" alt="MobSF" />
+<img src="https://img.shields.io/badge/ADB-0B1426?style=for-the-badge&logo=android&logoColor=D4AF37" alt="ADB" />
+<img src="https://img.shields.io/badge/mitmproxy-0B1426?style=for-the-badge" alt="mitmproxy" />
+<img src="https://img.shields.io/badge/MITRE_ATT%26CK-A4161A?style=for-the-badge" alt="MITRE ATT&CK" />
 
 **🌐 Altyapı & Önyüz**
 
 <img src="https://skillicons.dev/icons?i=linux,docker,cloudflare,git,githubactions,js,html,css&theme=dark" alt="Altyapı" />
+<br/>
+<img src="https://img.shields.io/badge/Caddy-0B1426?style=for-the-badge&logo=caddy&logoColor=D4AF37" alt="Caddy" />
+<img src="https://img.shields.io/badge/Claude_API-0B1426?style=for-the-badge&logo=anthropic&logoColor=D4AF37" alt="Claude API" />
+<img src="https://img.shields.io/badge/pfSense_%7C_FortiGate-0B1426?style=for-the-badge" alt="pfSense / FortiGate" />
 
 </div>
 
-<!-- ═══════════════════════════════ FEATURED ═══════════════════════════════ -->
+<!-- ═══════════════════════════════ RECONCLAW ═══════════════════════════════ -->
 
 ## `> ./featured --project ReconClaw`
 
 <div align="center">
   <a href="https://github.com/Pireburak/ReconClaw">
-    <img src="https://raw.githubusercontent.com/Pireburak/pireburak/output/reconclaw.svg" width="100%" alt="ReconClaw — öne çıkan depo" />
+    <img src="assets/reconclaw-ozet.svg" width="100%" alt="ReconClaw v9.0 Cortex özeti: 130+ otomatik test, 14 ATT&CK taktiği, A+…F güvenlik karnesi, 8 ISO 27001 kontrolü, sürekli izleme; v1'den v9'a sürüm hattı" />
   </a>
 </div>
 
-> **Async network discovery, banner grabbing & AI-assisted risk analysis.**
-> Yetkili keşif ve pentest iş akışı için: hızlı tarama, servis istihbaratı ve risk skoru tek yerde.
+> **🦝 Asenkron ağ keşfi, sürekli saldırı yüzeyi izleme ve yapay zekâ destekli risk analiz platformu.**
+> Bir hedef verirsin; ReconClaw portları yoklar, servis sürümlerini yakalar, bilinen zafiyetlerle eşler, **A+…F güvenlik notu** verir, bulguları **MITRE ATT&CK** saldırı zincirine ve **ISO 27001 / KVKK** kontrollerine bağlar ve **AI Analist** ile ne yapman gerektiğini Türkçe anlatır.
 
-| 🔧 Modül | 📡 Ne yapar | ⚡ Teknoloji |
+| 🔧 Katman | 📡 Ne yapar | ⚡ Nasıl |
 | --- | --- | --- |
-| **Async Socket Engine** | Binlerce portu UI kilitlemeden tarar | `asyncio` |
-| **Banner / Version Intel** | Açık servislerden sürüm bilgisi toplar | `socket` + parsers |
-| **Risk Engine** | Sürümleri olası CVE'lerle eşler, risk skoru üretir | AI + CVE feeds |
-| **OSINT Footprint** | Konum, ASN / ISP, veri merkezi bağlamı | IP-API |
-| **Matrix UI** | Tek dosyada gömülü terminal tarzı arayüz | HTML / JS |
+| **Hızlı keşif** | Yüzlerce portu aynı anda, hedefi boğmadan yoklar | `asyncio` + eşzamanlılık sınırı |
+| **Sürüm & CVE** | Banner'dan sürüm yakalar, bilinen zafiyet imzalarıyla eşler | banner grabbing + CVE imzaları |
+| **Güvenlik karnesi** | 5 kategoride puan, kritik sorunda not tavanı | deterministik, testli kurallar |
+| **MITRE ATT&CK** | 14 taktiklik matris ve olası saldırı zinciri | `core/intel.py` |
+| **Uyum** | ISO/IEC 27001:2022 Ek A (8 kontrol) + KVKK m.12 ön değerlendirmesi | kanıtlı sınıflandırma |
+| **AI Analist** | Yönetici özeti, P1/P2/P3 aksiyon planı, rapor üzerine soru-cevap | Claude + çevrimdışı kural tabanlı yedek |
+| **Sürekli izleme** | Saatlik / günlük / haftalık tarama, değişim alarmı | zamanlayıcı + Discord / Slack webhook |
+| **Pasif keşif** | Hedefe paket göndermeden alt alan adları, SPF / DMARC / CAA puanı | Sertifika Şeffaflığı + DNS-over-HTTPS |
+| **Raporlama** | GİZLİ damgalı PDF, CSV / JSON, salt-okunur paylaşım bağlantısı | 192 bit rastgele anahtar |
+| **Yayın** | Çok kullanıcılı, e-posta ve sosyal giriş, tek komutla HTTPS | Docker + Caddy |
+
+<details>
+<summary><b>🖼️ Ekran turu (tıkla)</b></summary>
+<br/>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Pireburak/ReconClaw/main/docs/screenshots/02-operasyon-merkezi.jpg" width="100%" alt="ReconClaw Operasyon Merkezi" />
+</p>
+
+| 🅰️ Güvenlik karnesi | 🎯 MITRE ATT&CK |
+| --- | --- |
+| <img src="https://raw.githubusercontent.com/Pireburak/ReconClaw/main/docs/screenshots/19-guvenlik-karnesi.jpg" alt="Güvenlik karnesi" /> | <img src="https://raw.githubusercontent.com/Pireburak/ReconClaw/main/docs/screenshots/20-mitre-attack.jpg" alt="MITRE ATT&CK matrisi" /> |
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Pireburak/ReconClaw/main/docs/screenshots/22-ai-analist.jpg" width="100%" alt="AI Analist" />
+</p>
+
+</details>
 
 <details>
 <summary><b>🧩 ReconClaw mimarisi (tıkla)</b></summary>
@@ -123,17 +156,70 @@ os:        Kali Linux
 
 ```mermaid
 flowchart LR
-  U[👤 Operator] -->|target + scope| UI[🖥️ Matrix UI]
-  UI --> API[⚡ FastAPI]
-  API --> SC[🛰️ Async Scanner]
-  SC --> BG[📡 Banner Grabber]
-  BG --> RE[🧠 Risk Engine]
-  RE --> CVE[(📚 CVE Data)]
-  API --> OS[🌍 OSINT / IP-API]
-  RE --> DB[(🗄️ SQLite)]
-  OS --> DB
-  DB --> UI
+  U["👤 Operatör"] -->|hedef + kapsam| UI["🗂️ Gizli Dosya UI"]
+  UI --> API["⚡ FastAPI"]
+  API --> SC["🛰️ Async Tarayıcı"]
+  SC --> BG["📡 Banner / Sürüm"]
+  BG --> PL["🧩 Eklentiler: HTTP başlık · TLS"]
+  PL --> IN["🧠 Karne · ATT&CK · Uyum"]
+  IN --> AI["🤖 AI Analist"]
+  API --> PK["🔭 Pasif Keşif: CT · DNS"]
+  API --> MON["⏱️ Sürekli İzleme"]
+  MON --> SC
+  MON --> WH["🔔 Webhook"]
+  IN --> DB[("🗄️ SQLite")]
+  AI --> DB
+  DB --> RP["🖨️ PDF · Paylaşım"]
 ```
+
+</details>
+
+<details>
+<summary><b>📜 <code>git log --oneline reconclaw</code> (tıkla)</b></summary>
+<br/>
+
+```diff
++ v9.0 Cortex    gerçek ödeme altyapısı, yasal sayfalar, şifremi unuttum, gerçek IP tespiti
++ v8.2 Cortex    bot koruması: Turnstile + bal küpü alanı + hız sınırı
++ v8.1 Cortex    Türkiye / yurt dışı bölgesel fiyat
++ v8.0 Cortex    MITRE ATT&CK, A+…F karne, ISO 27001 / KVKK uyumu, AI Analist, paylaşım
++ v7.0 Sentinel  sürekli izleme, pasif keşif, hesap etkinliği
++ v6.x Aurora    "gizli dosya" arayüzü, komut paleti, abonelik planları, hedef doğrulama
++ v5.0 Nebula    operasyon paneli, çoklu kullanıcı, karşılaştırma, ağ haritası, PDF
++ v4.0 Phantom   modüler mimari, async motor, banner grabbing, eklenti sistemi
+* v1–v3          ilk TCP tarayıcı, CLI, dashboard, risk motoru
+```
+
+</details>
+
+<!-- ═══════════════════════════════ PROJELER ═══════════════════════════════ -->
+
+## `> ls ~/projeler`
+
+<div align="center">
+
+<a href="https://github.com/Pireburak/Finalproject_MacOS"><img src="https://raw.githubusercontent.com/Pireburak/pireburak/output/proje-webkit.svg" width="49%" alt="Finalproject_MacOS — CVE-2026-3312 WebKit use-after-free analizi" /></a>
+<a href="https://github.com/Pireburak/miterm-Burak-Ozdemir"><img src="https://raw.githubusercontent.com/Pireburak/pireburak/output/proje-tarayici.svg" width="49%" alt="miterm-Burak-Ozdemir — Rust ağ keşif aracı" /></a>
+<a href="https://github.com/Pireburak/OSINT-veritabani"><img src="https://raw.githubusercontent.com/Pireburak/pireburak/output/proje-osint.svg" width="49%" alt="OSINT-veritabani — siber tehdit istihbaratı toplayıcı" /></a>
+
+</div>
+
+| 📂 Proje | 🔍 Odak | 🧾 Öne çıkan çıktı |
+| --- | --- | --- |
+| **WebKit UAF analizi** | Zafiyet araştırması | CVE-2026-3312 için CVSS 8.8 analizi, `unsafe` Rust ile UAF simülasyonu, interaktif HTML simülasyon paneli, C++ yama önerileri |
+| **Rust ağ tarayıcı** | Keşif aracı | Port tarama, banner yakalama, DNS, HTTP başlık ve dizin keşfi modülleri; CI/CD ve Docker |
+| **OSINT veritabanı** | Tehdit istihbaratı | NVD, Exploit-DB, The Hacker News ve BleepingComputer akışlarını toplayıp konuya göre sınıflandırma; 4 farklı LLM ile araştırma karşılaştırması |
+
+<details>
+<summary><b>🧪 Lab notları (tıkla)</b></summary>
+<br/>
+
+| 🔒 Lab | 🧰 Araçlar | 🧾 Öne çıkan çıktı |
+| --- | --- | --- |
+| **Android Runtime Injection** | Frida, ADB, MobSF, mitmproxy, Docker Android | Runtime injection ile SSL pinning ve root tespiti atlatma mantığı; yönetici yetkisi olmayan okul ortamında Alpine + taşınabilir VirtualBox ile kurulum |
+| **Ağ Segmentasyonu & Firewall** | NGFW (FortiGate / Palo Alto / pfSense), IPsec | Hayali **AnadoluNet** holdingi: 4 şube, ~9.100 kullanıcı, VLAN / IP planı, formülle bant genişliği hesabı ve QoS, 14 adımlık güvenlik duvarı kurulumu, IKEv2 site-to-site VPN, default-deny kural tabloları |
+
+<sub>🔒 Lab notları özel repolarda tutuluyor.</sub>
 
 </details>
 
@@ -146,7 +232,7 @@ flowchart LR
 </div>
 
 TEKNOFEST'te sabahlayan takımlar, BAYKAR'ın **Bayraktar TB2**, **AKINCI** ve **KIZILELMA**'sı, "yapamazsınız" denen her şeyin Anadolu'da yapılabildiğinin kanıtı.
-Benim cephem siber: gökteki her İHA'nın arkasında **şifreli bir veri bağı**, **sağlamlaştırılmış bir yer istasyonu** ve güvenli yazılmış bir kod satırı var. 🛡️✈️
+Benim cephem siber: gökteki her İHA'nın arkasında **şifreli bir veri bağı**, **sağlamlaştırılmış bir yer istasyonu** ve güvenli yazılmış bir kod satırı var. ReconClaw'ın **TÜBİTAK / TEKNOFEST** proje dosyası da bu yolda hazırlanıyor. 🛡️✈️
 
 <!-- ═══════════════════════════════ METHODOLOGY ═══════════════════════════════ -->
 
@@ -164,6 +250,8 @@ Benim cephem siber: gökteki her İHA'nın arkasında **şifreli bir veri bağı
 + Kapsam yazılı değilse, tarama yok.
 + Her bulgu bir düzeltme önerisiyle gelir.
 + Otomasyon hız kazandırır, doğrulama güven kazandırır.
++ Skoru kurallar hesaplar, yapay zekâ yalnızca yorumlar.
++ Taranan sunucudan gelen veri, talimat değil veridir (prompt injection).
 + Güvenli varsayılanlar > sonradan yamalar.
 - "Security through obscurity" bir strateji değildir.
 ```
@@ -183,15 +271,17 @@ Güvenlik Türkçe de konuşulur. Terimlerin Türkçesini kullanmaya özen göst
 | 🇹🇷 Türkçe | 🇬🇧 English | 💬 Tek cümlede |
 | --- | --- | --- |
 | **Keşif** | Reconnaissance | Hedefi tanımadan hiçbir şeye dokunma. |
+| **Saldırı yüzeyi** | Attack surface | Dışarıdan ulaşılabilen her kapı, her servis. |
 | **Parmak izi çıkarma** | Fingerprinting | Hangi servis, hangi sürüm, hangi işletim sistemi? |
 | **Zafiyet** | Vulnerability | Sistemdeki zayıf nokta. |
 | **İstismar** | Exploit | O zayıf noktayı kullanan kod ya da teknik. |
 | **Sıfırıncı gün açığı** | Zero-day | Üreticinin henüz haberi olmayan zafiyet. |
+| **Serbest bırakıldıktan sonra kullanım** | Use-after-free | Silinmiş belleğe erişmeye devam etmek. |
+| **Sertifika sabitleme** | Certificate pinning | Uygulamanın yalnızca belirli sertifikaya güvenmesi. |
 | **Sızma testi** | Penetration test | İzinli saldırı, gerçek rapor. |
 | **Oltalama** | Phishing | Tatlı dil, sahte link, gerçek kayıp. |
 | **Fidye yazılımı** | Ransomware | Dosyalarını şifreler, fidye ister. Yedek al. |
-| **Kötücül yazılım** | Malware | Adı üstünde. |
-| **Kaba kuvvet saldırısı** | Brute force | Tüm kombinasyonları dene; rate limit'e takıl. |
+| **İstem enjeksiyonu** | Prompt injection | Veri kılığında yapay zekâya talimat kaçırmak. |
 | **Bal küpü** | Honeypot | Saldırganı oyalayan, onu izleyen tuzak sistem. |
 | **Güvenlik duvarı** | Firewall | Kapıdaki bekçi. |
 | **En az yetki ilkesi** | Least privilege | Gerektiği kadar yetki, fazlası değil. |
@@ -259,13 +349,22 @@ Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yor
 
 ## `> cat roadmap.todo`
 
-- [x] ReconClaw async engine
-- [x] Banner grabbing + version detection
-- [x] OSINT footprint modülü
-- [ ] ReconClaw v4.0 — AI risk engine iyileştirmeleri
-- [ ] Docker imajı + tek komutla kurulum
-- [ ] Rapor dışa aktarma (PDF / JSON)
-- [ ] Plugin sistemi (özel tarama modülleri)
+**✅ Tamamlananlar**
+- [x] ReconClaw v7.0 Sentinel: sürekli izleme ve pasif keşif
+- [x] ReconClaw v8.0 Cortex: MITRE ATT&CK, A+…F karne, ISO 27001 / KVKK, AI Analist
+- [x] ReconClaw v9.0 Cortex: ödeme altyapısı, yasal sayfalar, bot koruması
+- [x] Docker + Caddy ile tek komutla HTTPS yayın
+- [x] PDF / CSV / JSON rapor ve eklenti sistemi
+- [x] WebKit use-after-free (CVE-2026-3312) analizi ve Rust simülasyonu
+- [x] Kurumsal ağ segmentasyonu ve güvenlik duvarı tasarımı
+
+**🔭 Sıradakiler**
+- [ ] ReconClaw: iki adımlı doğrulama (TOTP)
+- [ ] ReconClaw: CIDR aralığı ve UDP tarama
+- [ ] ReconClaw: NVD / OSV + EPSS ile CVE zenginleştirme
+- [ ] ReconClaw: Türkçe / İngilizce arayüz, SIEM entegrasyonu
+- [ ] Android lab: Frida ile canlı SSL pinning bypass
+- [ ] TÜBİTAK / TEKNOFEST başvurusu
 
 <img src="assets/kilim.svg" width="100%" alt="kilim şeridi" />
 
@@ -293,7 +392,8 @@ Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yor
 ```
 PING pireburak (127.0.0.1): 56 data bytes
 64 bytes from pireburak: icmp_seq=0 ttl=64 — güvenlik aracı? backend mimarisi? iş birliği?
-64 bytes from pireburak: icmp_seq=1 ttl=64 — kanallar açık, bir çay söyle, yaz 👇
+64 bytes from pireburak: icmp_seq=1 ttl=64 — ReconClaw'ı denemek ya da katkı vermek mi istiyorsun?
+64 bytes from pireburak: icmp_seq=2 ttl=64 — kanallar açık, bir çay söyle, yaz 👇
 ```
 
 <div align="center">
@@ -304,7 +404,7 @@ PING pireburak (127.0.0.1): 56 data bytes
 
 <br/><br/>
 
-<sub>⚠️ Buradaki tüm araçlar yalnızca <b>yetkili</b> testler ve eğitim amaçlıdır. / For authorized testing & education only.</sub>
+<sub>⚠️ Buradaki tüm araçlar yalnızca <b>yetkili</b> testler ve eğitim amaçlıdır; izinsiz tarama TCK 243–245 kapsamında suç teşkil edebilir. / For authorized testing & education only.</sub>
 
 <br/><br/>
 
