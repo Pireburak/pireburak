@@ -338,11 +338,11 @@ Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yor
 <!-- ATASOZU:START -->
 ```bash
 ┌──(pireburak㉿kali)-[~]
-└─$ fortune tr-atasozleri --gun 303
-📜  "Ak akçe kara gün içindir."
-🛡️  └─> Yedek de kara gün içindir: 3-2-1 kuralını unutma.
+└─$ fortune tr-atasozleri --gun 304
+📜  "Bin bilsen de bir bilene danış."
+🛡️  └─> Code review atlanmaz.
 ```
-<sub>🕰️ Son güncelleme: 30.10.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
+<sub>🕰️ Son güncelleme: 31.10.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
 <!-- ATASOZU:END -->
 
 <!-- ═══════════════════════════════ ROADMAP ═══════════════════════════════ -->
