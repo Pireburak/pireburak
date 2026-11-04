@@ -338,11 +338,11 @@ Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yor
 <!-- ATASOZU:START -->
 ```bash
 ┌──(pireburak㉿kali)-[~]
-└─$ fortune tr-atasozleri --gun 307
-📜  "Bir musibet bin nasihatten iyidir."
-🛡️  └─> Her olay bir post-mortem, her post-mortem bir ders.
+└─$ fortune tr-atasozleri --gun 308
+📜  "Ne ekersen onu biçersin."
+🛡️  └─> Input'u doğrulamazsan SQL injection biçersin.
 ```
-<sub>🕰️ Son güncelleme: 03.11.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
+<sub>🕰️ Son güncelleme: 04.11.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
 <!-- ATASOZU:END -->
 
 <!-- ═══════════════════════════════ ROADMAP ═══════════════════════════════ -->
