@@ -338,11 +338,11 @@ Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yor
 <!-- ATASOZU:START -->
 ```bash
 ┌──(pireburak㉿kali)-[~]
-└─$ fortune tr-atasozleri --gun 308
-📜  "Ne ekersen onu biçersin."
-🛡️  └─> Input'u doğrulamazsan SQL injection biçersin.
+└─$ fortune tr-atasozleri --gun 309
+📜  "Az olsun, öz olsun."
+🛡️  └─> En az yetki ilkesi: least privilege.
 ```
-<sub>🕰️ Son güncelleme: 04.11.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
+<sub>🕰️ Son güncelleme: 05.11.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
 <!-- ATASOZU:END -->
 
 <!-- ═══════════════════════════════ ROADMAP ═══════════════════════════════ -->
