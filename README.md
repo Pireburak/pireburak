@@ -338,11 +338,11 @@ Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yor
 <!-- ATASOZU:START -->
 ```bash
 ┌──(pireburak㉿kali)-[~]
-└─$ fortune tr-atasozleri --gun 309
-📜  "Az olsun, öz olsun."
-🛡️  └─> En az yetki ilkesi: least privilege.
+└─$ fortune tr-atasozleri --gun 310
+📜  "Söz gümüşse sükût altındır."
+🛡️  └─> Hata mesajları da az konuşmalı; stack trace sızdırma.
 ```
-<sub>🕰️ Son güncelleme: 05.11.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
+<sub>🕰️ Son güncelleme: 06.11.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
 <!-- ATASOZU:END -->
 
 <!-- ═══════════════════════════════ ROADMAP ═══════════════════════════════ -->
