@@ -338,11 +338,11 @@ Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yor
 <!-- ATASOZU:START -->
 ```bash
 ┌──(pireburak㉿kali)-[~]
-└─$ fortune tr-atasozleri --gun 311
-📜  "Bugünün işini yarına bırakma."
-🛡️  └─> Bugünün yamasını da.
+└─$ fortune tr-atasozleri --gun 312
+📜  "Tatlı dil yılanı deliğinden çıkarır."
+🛡️  └─> Sosyal mühendislik de öyle; oltalamaya dikkat.
 ```
-<sub>🕰️ Son güncelleme: 07.11.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
+<sub>🕰️ Son güncelleme: 08.11.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
 <!-- ATASOZU:END -->
 
 <!-- ═══════════════════════════════ ROADMAP ═══════════════════════════════ -->
