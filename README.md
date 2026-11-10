@@ -338,11 +338,11 @@ Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yor
 <!-- ATASOZU:START -->
 ```bash
 ┌──(pireburak㉿kali)-[~]
-└─$ fortune tr-atasozleri --gun 313
-📜  "Duvarın da kulağı var."
-🛡️  └─> Şifrelenmemiş trafiğin de: her yerde TLS.
+└─$ fortune tr-atasozleri --gun 314
+📜  "Yalancının mumu yatsıya kadar yanar."
+🛡️  └─> Sahte sertifikanın da; imzaları doğrula.
 ```
-<sub>🕰️ Son güncelleme: 09.11.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
+<sub>🕰️ Son güncelleme: 10.11.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
 <!-- ATASOZU:END -->
 
 <!-- ═══════════════════════════════ ROADMAP ═══════════════════════════════ -->
