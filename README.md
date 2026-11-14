@@ -338,11 +338,11 @@ Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yor
 <!-- ATASOZU:START -->
 ```bash
 ┌──(pireburak㉿kali)-[~]
-└─$ fortune tr-atasozleri --gun 317
-📜  "Kaz gelecek yerden tavuk esirgenmez."
-🛡️  └─> Güvenlik yatırımı, ihlalin maliyetinden ucuzdur.
+└─$ fortune tr-atasozleri --gun 318
+📜  "Güvenme varlığa, düşersin darlığa."
+🛡️  └─> Güvenme varsayılan ayarlara, düşersin ihlale.
 ```
-<sub>🕰️ Son güncelleme: 13.11.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
+<sub>🕰️ Son güncelleme: 14.11.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
 <!-- ATASOZU:END -->
 
 <!-- ═══════════════════════════════ ROADMAP ═══════════════════════════════ -->
