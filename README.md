@@ -338,11 +338,11 @@ Her gece İstanbul saatiyle bir atasözü seçilir ve bir güvenlik dersiyle yor
 <!-- ATASOZU:START -->
 ```bash
 ┌──(pireburak㉿kali)-[~]
-└─$ fortune tr-atasozleri --gun 323
-📜  "İşleyen demir ışıldar."
-🛡️  └─> Her gün biraz CTF, her gün biraz daha keskin.
+└─$ fortune tr-atasozleri --gun 324
+📜  "Dost acı söyler."
+🛡️  └─> İyi bir pentest raporu da öyle.
 ```
-<sub>🕰️ Son güncelleme: 19.11.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
+<sub>🕰️ Son güncelleme: 20.11.2026 · İstanbul saatiyle her gece otomatik yenilenir.</sub>
 <!-- ATASOZU:END -->
 
 <!-- ═══════════════════════════════ ROADMAP ═══════════════════════════════ -->
